@@ -1,4 +1,2 @@
-Assets/Udon/* linguist-vendored
-Assets/UdonSharp/* linguist-vendored
-Assets/VRChat Examples/* linguist-vendored
-Assets/VRCSDK/* linguist-vendored
+*.html linguist-documentation
+*.js linguist-documentation
