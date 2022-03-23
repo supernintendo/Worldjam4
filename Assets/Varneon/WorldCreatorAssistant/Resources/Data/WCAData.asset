@@ -19,7 +19,7 @@ MonoBehaviour:
   - Name: VRWorldToolkit
     Author: oneVR
     Description: Unity Editor extension for making VRChat worlds
-    Imported: 1
+    Imported: 0
     Downloaded: 1
     ImportedVersion: 2.0.0
     DownloadedVersion: 2.0.0
