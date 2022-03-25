@@ -12,6 +12,6 @@ public class TomatoCollide : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("splat");
+        Destroy(gameObject);
     }
 }
