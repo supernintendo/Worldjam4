@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 4a5f51df71a31554dbbde0b2b7d59006
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Barrel A
+    100002: Barrel B
+    100004: Barrel C
+    100006: //RootNode
+    100008: Kite Flight
+    100010: Necked Shaft
+    100012: Shaft
+    100014: Short Necked Shaft
+    100016: Short Shaft
+    100018: Slim Flight
+    100020: Standerd Flight
+    100022: Tear Flight
+    100024: Tip
+    100026: Long Shaft
+    100028: Long Slim Shaft
+    100030: Slim Shaft
+    100032: Standard Flight
+    400000: Barrel A
+    400002: Barrel B
+    400004: Barrel C
+    400006: //RootNode
+    400008: Kite Flight
+    400010: Necked Shaft
+    400012: Shaft
+    400014: Short Necked Shaft
+    400016: Short Shaft
+    400018: Slim Flight
+    400020: Standerd Flight
+    400022: Tear Flight
+    400024: Tip
+    400026: Long Shaft
+    400028: Long Slim Shaft
+    400030: Slim Shaft
+    400032: Standard Flight
+    2100000: MT_Darts
+    2300000: Barrel A
+    2300002: Barrel B
+    2300004: Barrel C
+    2300006: Kite Flight
+    2300008: Necked Shaft
+    2300010: Shaft
+    2300012: Short Necked Shaft
+    2300014: Short Shaft
+    2300016: Slim Flight
+    2300018: Standerd Flight
+    2300020: Tear Flight
+    2300022: Tip
+    2300024: Long Shaft
+    2300026: Long Slim Shaft
+    2300028: Slim Shaft
+    2300030: Standard Flight
+    3300000: Barrel A
+    3300002: Barrel B
+    3300004: Barrel C
+    3300006: Kite Flight
+    3300008: Necked Shaft
+    3300010: Shaft
+    3300012: Short Necked Shaft
+    3300014: Short Shaft
+    3300016: Slim Flight
+    3300018: Standerd Flight
+    3300020: Tear Flight
+    3300022: Tip
+    3300024: Long Shaft
+    3300026: Long Slim Shaft
+    3300028: Slim Shaft
+    3300030: Standard Flight
+    4300000: Standerd Flight
+    4300002: Kite Flight
+    4300004: Slim Flight
+    4300006: Tear Flight
+    4300008: Shaft
+    4300010: Short Shaft
+    4300012: Necked Shaft
+    4300014: Short Necked Shaft
+    4300016: Barrel A
+    4300018: Barrel B
+    4300020: Barrel C
+    4300022: Tip
+    4300024: Standard Flight
+    4300026: Long Shaft
+    4300028: Long Slim Shaft
+    4300030: Slim Shaft
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MT_Darts
+    second: {fileID: 2100000, guid: 0e01b52db2874f3468f27aec9eafd4ad, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
