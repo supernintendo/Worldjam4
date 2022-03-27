@@ -180,7 +180,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: UnityEngineTransform.__set_rotation__UnityEngineQuaternion__SystemVoid
       uid: b561526c-3ea8-4569-9ee0-68152daabb2a
-      position: {x: 1718.5853, y: 3.731414}
+      position: {x: 1760, y: 171}
       nodeUIDs:
       - fd9ba92d-6ad5-442e-86ba-c394067dc7da|0
       - 2a75de4b-2943-4c60-b988-284afbfca67a|0
@@ -411,7 +411,7 @@ MonoBehaviour:
     uid: 22e89c8b-89e2-410b-9456-3b70994b6ad7
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":1044.0,"y":25.0,"width":309.0,"height":174.0}}'
   viewTransform:
-    position: {x: 43.000008, y: 321}
-    scale: 0.7561437
+    position: {x: -482, y: 420}
+    scale: 1
   version: 1.0.0
   showAssembly: 0
