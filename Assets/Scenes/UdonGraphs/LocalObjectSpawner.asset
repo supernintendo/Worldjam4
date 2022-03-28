@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: LocalTomatoSpawner
+  m_Name: LocalObjectSpawner
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: 9b0c34be8e63edf48b08491fb7bb1455,
     type: 2}
@@ -34,10 +34,11 @@ MonoBehaviour:
     this\r\n    __message_1: %SystemObject, null\r\n    __String_1: %SystemString,
     null\r\n    testObj: %UnityEngineGameObject, this\r\n    pushPos: %UnityEngineVector3,
     null\r\n    pushRot: %UnityEngineQuaternion, null\r\n    pushVel: %UnityEngineVector3,
-    null\r\n    pushAng: %UnityEngineVector3, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
-    .export SpawnLocalTomato\r\n    \r\n    SpawnLocalTomato:\r\n    \r\n       
-    PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
-    __original_0\r\n        PUSH, __clone_0\r\n        EXTERN, \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
+    null\r\n    pushAng: %UnityEngineVector3, null\r\n    newVariable: %SystemString,
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export SpawnLocalObject\r\n   
+    \r\n    SpawnLocalObject:\r\n    \r\n        PUSH, testObj\r\n        PUSH, __original_0\r\n       
+    COPY\r\n        PUSH, __original_0\r\n        PUSH, __clone_0\r\n        EXTERN,
+    \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
     PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
     __clone_0\r\n        PUSH, __instance_1\r\n        COPY\r\n        PUSH, __clone_0\r\n       
     PUSH, __type_0\r\n        PUSH, __instance_0\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
@@ -93,7 +94,7 @@ MonoBehaviour:
       - 36a8d550-4928-4c58-a7c7-be71a866e27d
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SpawnLocalTomato
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SpawnLocalObject
     - fullName: Variable_UnityEngineGameObject
       uid: 1e2831f2-237e-4159-926b-56cc4154b6c2
       position: {x: 0, y: 0}
@@ -379,7 +380,7 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|fooobar
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SpawnLocalObject
     - fullName: Event_OnPreSerialization
       uid: 322bb96f-0a97-4a71-b4a0-48a7657f5e76
       position: {x: 593, y: -330}
@@ -405,13 +406,39 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|yeeee
+    - fullName: Variable_SystemString
+      uid: b4f37ffa-d3f9-4712-a54c-45487797316d
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|newVariable
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     updateOrder: 0
   graphElementData:
   - type: 5
     uid: 22e89c8b-89e2-410b-9456-3b70994b6ad7
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":1044.0,"y":25.0,"width":309.0,"height":174.0}}'
+  - type: 4
+    uid: 9a88e2c8-5f8c-4cb7-a236-c4fa1af45543
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":957.0,"y":681.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -482, y: 420}
+    position: {x: 78, y: 228}
     scale: 1
   version: 1.0.0
   showAssembly: 0

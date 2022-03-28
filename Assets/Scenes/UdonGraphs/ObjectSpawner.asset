@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: TomatoSpawner
+  m_Name: ObjectSpawner
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: 83448517d22acaa4d8daee716e57dbf6,
     type: 2}
@@ -107,7 +107,7 @@ MonoBehaviour:
     uid: d4e6a5b5-f3f2-40c6-9ab6-51b98780c8cf
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":294.0,"y":110.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: 977, y: -466}
+    position: {x: 953, y: -403}
     scale: 1
   version: 1.0.0
   showAssembly: 0
