@@ -54,7 +54,10 @@ MonoBehaviour:
     __value_E: %SystemObject, null\r\n    __instance_1C: %UnityEngineTransform, this\r\n   
     __instance_1E: %VRCUdonUdonBehaviour, this\r\n    __symbolName_7: %SystemString,
     null\r\n    __value_F: %SystemObject, null\r\n    __instance_1F: %UnityEngineTransform,
-    this\r\n    __instance_1D: %UnityEngineGameObject, this\r\n    originPool: %VRCSDK3ComponentsVRCObjectPool,
+    this\r\n    __instance_1D: %UnityEngineGameObject, this\r\n    __instance_20:
+    %UnityEngineRigidbody, null\r\n    __value_10: %UnityEngineRigidbodyConstraints,
+    null\r\n    __instance_21: %UnityEngineGameObject, this\r\n    __type_5: %SystemString,
+    null\r\n    __GameObject_4: %UnityEngineGameObject, this\r\n    originPool: %VRCSDK3ComponentsVRCObjectPool,
     null\r\n    originSpawner: %VRCUdonUdonBehaviour, this\r\n    thrown: %SystemBoolean,
     null\r\n    tomatoSplatPool: %VRCSDK3ComponentsVRCObjectPool, null\r\n    localObjectSpawner:
     %VRCUdonUdonBehaviour, this\r\n    startPos: %UnityEngineVector3, null\r\n   
@@ -141,6 +144,11 @@ MonoBehaviour:
     PUSH, __instance_1C\r\n        PUSH, __value_F\r\n        EXTERN, \"UnityEngineTransform.__get_rotation__UnityEngineQuaternion\"\r\n       
     PUSH, __instance_1E\r\n        PUSH, __symbolName_7\r\n        PUSH, __value_F\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPickup\r\n    \r\n    _onPickup:\r\n   
+    \r\n        PUSH, __GameObject_4\r\n        PUSH, __instance_21\r\n        COPY\r\n       
+    PUSH, __instance_21\r\n        PUSH, __type_5\r\n        PUSH, __instance_20\r\n       
+    EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
+    PUSH, __instance_20\r\n        PUSH, __value_10\r\n        EXTERN, \"UnityEngineRigidbody.__set_constraints__UnityEngineRigidbodyConstraints__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -666,7 +674,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_This
       uid: 1c6bd43c-f77c-4376-bb8d-b4065aee78dc
-      position: {x: -236, y: 495}
+      position: {x: -225, y: 477}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -675,7 +683,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent
       uid: 28ed060f-5d7c-45d5-9b31-8f5718f3479b
-      position: {x: -26.962198, y: 540.2189}
+      position: {x: -27.000011, y: 538.6775}
       nodeUIDs:
       - 1c6bd43c-f77c-4376-bb8d-b4065aee78dc|0
       - 
@@ -904,6 +912,47 @@ MonoBehaviour:
           Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|All
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SpawnLocalObject
+    - fullName: Event_OnPickup
+      uid: b2546eb3-aa6a-47df-bd90-4387f0ac9613
+      position: {x: -1383.9652, y: -201.77501}
+      nodeUIDs: []
+      flowUIDs:
+      - 63f656d5-b3ee-4418-9038-d271ecb9adee
+      nodeValues: []
+    - fullName: UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent
+      uid: d490843a-9ee9-42a7-9fd9-22d7509822c3
+      position: {x: -1404, y: 162}
+      nodeUIDs:
+      - 601e1561-ea9f-4c88-89db-8bf8bcec5107|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Rigidbody
+    - fullName: Const_This
+      uid: 601e1561-ea9f-4c88-89db-8bf8bcec5107
+      position: {x: -1607.5477, y: 127.55503}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineRigidbody.__set_constraints__UnityEngineRigidbodyConstraints__SystemVoid
+      uid: 63f656d5-b3ee-4418-9038-d271ecb9adee
+      position: {x: -907, y: -120}
+      nodeUIDs:
+      - d490843a-9ee9-42a7-9fd9-22d7509822c3|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.RigidbodyConstraints, UnityEngine.PhysicsModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|None
     updateOrder: 0
   graphElementData:
   - type: 4
@@ -917,7 +966,7 @@ MonoBehaviour:
     jsonData: '{"uid":"48144543-bb83-476c-886c-f8670795cf62","layout":{"serializedVersion":"2","x":104.00000762939453,"y":833.9999389648438,"width":1858.0,"height":709.0},"containedElements":["8d8d6c42-d9a7-40fd-9352-2ce75354e5ea","47aee416-a270-4d8b-8fda-e3b4fc1082ce","5ce47ad9-46d1-4160-8bea-08b1c6578cea","41dd8814-9b2a-436d-a41c-7a1aeb99c9fe","420c51ea-f366-4745-ba31-a28cd77843e0","4537d2f9-6872-4e2b-a37a-07d5ff954687","18bcd095-87fb-4151-b87e-d04b88e28fd5","ca3de32b-66a7-436f-83c6-09c0588356d4","3f080ad9-36e0-4c8a-89fc-38403bd60ad2","f6c286a3-2371-4e04-bc99-59177ff99e7e","eb1a2dab-28d4-4d85-9464-eacc2e2b6318","073c6e20-ab38-4068-9bf0-ff148db9c0f3"],"title":"Tomato
       Splat","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -1860, y: 682}
-    scale: 0.7561437
+    position: {x: 1652, y: 445}
+    scale: 1
   version: 1.0.0
   showAssembly: 0

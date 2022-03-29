@@ -14,12 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: 83448517d22acaa4d8daee716e57dbf6,
     type: 2}
-  udonAssembly: ".data_start\r\n\r\n    .export objectPool\r\n    \r\n    __instance_0:
-    %VRCSDK3ComponentsVRCObjectPool, null\r\n    __GameObject_0: %UnityEngineGameObject,
-    this\r\n    objectPool: %VRCSDK3ComponentsVRCObjectPool, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+  udonAssembly: ".data_start\r\n\r\n    .export objectPool\r\n    \r\n    __GameObject_0:
+    %UnityEngineGameObject, this\r\n    __instance_1: %UnityEngineRigidbody, null\r\n   
+    __value_0: %UnityEngineRigidbodyConstraints, null\r\n    __instance_2: %UnityEngineGameObject,
+    this\r\n    __type_0: %SystemString, null\r\n    __instance_0: %VRCSDK3ComponentsVRCObjectPool,
+    null\r\n    objectPool: %VRCSDK3ComponentsVRCObjectPool, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export _onPlayerJoined\r\n    \r\n    _onPlayerJoined:\r\n    \r\n        PUSH,
     objectPool\r\n        PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n       
     PUSH, __GameObject_0\r\n        EXTERN, \"VRCSDK3ComponentsVRCObjectPool.__TryToSpawn__UnityEngineGameObject\"\r\n       
+    PUSH, objectPool\r\n        PUSH, __instance_0\r\n        COPY\r\n        PUSH,
+    __GameObject_0\r\n        PUSH, __instance_2\r\n        COPY\r\n        PUSH,
+    __GameObject_0\r\n        PUSH, __type_0\r\n        PUSH, __instance_1\r\n       
+    EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
+    PUSH, __instance_1\r\n        PUSH, __value_0\r\n        EXTERN, \"UnityEngineRigidbody.__set_constraints__UnityEngineRigidbodyConstraints__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -66,13 +73,13 @@ MonoBehaviour:
       nodeUIDs:
       - f755bb7f-3f4e-455d-9754-6752ffe2abe9|0
       flowUIDs:
-      - 
+      - d31d2410-df4c-42c2-8bd6-ce1bff277390
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
     - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
       uid: 21f11e7a-3854-47ce-bfe9-c5a7ee15ec2f
-      position: {x: 245, y: 735}
+      position: {x: 237.06502, y: 861.9601}
       nodeUIDs:
       - 
       - eb39fdb3-1c19-44c0-ba4b-db68a0d0eeb5|0
@@ -99,32 +106,31 @@ MonoBehaviour:
       flowUIDs:
       - b0f58ea1-2d9a-45cc-852b-dae3bb99daad
       nodeValues: []
-    - fullName: UnityEngineTransform.__SetPositionAndRotation__UnityEngineVector3_UnityEngineQuaternion__SystemVoid
-      uid: 4f8bd5f1-bda1-44b0-a658-824f91e7ca20
-      position: {x: 730.9026, y: 474.71503}
+    - fullName: UnityEngineRigidbody.__set_constraints__UnityEngineRigidbodyConstraints__SystemVoid
+      uid: d31d2410-df4c-42c2-8bd6-ce1bff277390
+      position: {x: 503.23007, y: 457.71}
       nodeUIDs:
-      - fe431445-5dba-416f-8ab2-440e635034f2|0
-      - 
+      - 25ac930a-b8f1-4d62-895a-64e4189cc6ae|0
       - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
-      - unityObjectValue: {fileID: 0}
-        stringValue: UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0,"w":0.0}
-    - fullName: UnityEngineGameObject.__get_transform__UnityEngineTransform
-      uid: fe431445-5dba-416f-8ab2-440e635034f2
-      position: {x: 272, y: 543}
+        stringValue: UnityEngine.RigidbodyConstraints, UnityEngine.PhysicsModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|FreezeAll
+    - fullName: UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent
+      uid: 25ac930a-b8f1-4d62-895a-64e4189cc6ae
+      position: {x: 185.0325, y: 695.8976}
       nodeUIDs:
+      - b0f58ea1-2d9a-45cc-852b-dae3bb99daad|0
       - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Rigidbody
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -134,7 +140,7 @@ MonoBehaviour:
     uid: d4e6a5b5-f3f2-40c6-9ab6-51b98780c8cf
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":294.0,"y":110.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: 674, y: -92.99999}
-    scale: 0.8695652
+    position: {x: 804, y: -50}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0

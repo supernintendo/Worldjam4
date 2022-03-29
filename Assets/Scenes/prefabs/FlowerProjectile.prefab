@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3161424907999918398}
   - component: {fileID: 5585784153577180607}
   - component: {fileID: 4836807973409485886}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FlowerProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,6 +156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Flower
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546882975046188736, guid: 027b58fbe745620448638f43191d82c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 027b58fbe745620448638f43191d82c9, type: 3}
