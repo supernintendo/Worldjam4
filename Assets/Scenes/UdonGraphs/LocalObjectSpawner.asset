@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: LocalTomatoSpawner
+  m_Name: LocalObjectSpawner
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: 9b0c34be8e63edf48b08491fb7bb1455,
     type: 2}
@@ -23,21 +23,20 @@ MonoBehaviour:
     this\r\n    __type_1: %SystemString, null\r\n    __instance_5: %UnityEngineTransform,
     this\r\n    __value_2: %UnityEngineVector3, null\r\n    __instance_1: %UnityEngineGameObject,
     this\r\n    __type_0: %SystemString, null\r\n    __original_0: %UnityEngineGameObject,
-    this\r\n    __message_0: %SystemObject, null\r\n    __String_0: %SystemString,
-    null\r\n    __clone_1: %UnityEngineGameObject, this\r\n    __instance_6: %UnityEngineTransform,
+    this\r\n    __clone_1: %UnityEngineGameObject, this\r\n    __instance_6: %UnityEngineTransform,
     this\r\n    __value_3: %UnityEngineQuaternion, null\r\n    __instance_8: %UnityEngineRigidbody,
     null\r\n    __value_4: %UnityEngineVector3, null\r\n    __instance_A: %UnityEngineRigidbody,
     null\r\n    __force_1: %UnityEngineVector3, null\r\n    __instance_9: %UnityEngineGameObject,
     this\r\n    __type_3: %SystemString, null\r\n    __instance_B: %UnityEngineTransform,
     this\r\n    __value_5: %UnityEngineVector3, null\r\n    __instance_7: %UnityEngineGameObject,
     this\r\n    __type_2: %SystemString, null\r\n    __original_1: %UnityEngineGameObject,
-    this\r\n    __message_1: %SystemObject, null\r\n    __String_1: %SystemString,
-    null\r\n    testObj: %UnityEngineGameObject, this\r\n    pushPos: %UnityEngineVector3,
+    this\r\n    testObj: %UnityEngineGameObject, this\r\n    pushPos: %UnityEngineVector3,
     null\r\n    pushRot: %UnityEngineQuaternion, null\r\n    pushVel: %UnityEngineVector3,
-    null\r\n    pushAng: %UnityEngineVector3, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
-    .export SpawnLocalTomato\r\n    \r\n    SpawnLocalTomato:\r\n    \r\n       
-    PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
-    __original_0\r\n        PUSH, __clone_0\r\n        EXTERN, \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
+    null\r\n    pushAng: %UnityEngineVector3, null\r\n    newVariable: %SystemString,
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export SpawnLocalObject\r\n   
+    \r\n    SpawnLocalObject:\r\n    \r\n        PUSH, testObj\r\n        PUSH, __original_0\r\n       
+    COPY\r\n        PUSH, __original_0\r\n        PUSH, __clone_0\r\n        EXTERN,
+    \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
     PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
     __clone_0\r\n        PUSH, __instance_1\r\n        COPY\r\n        PUSH, __clone_0\r\n       
     PUSH, __type_0\r\n        PUSH, __instance_0\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
@@ -55,10 +54,8 @@ MonoBehaviour:
     PUSH, __instance_5\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
     pushPos\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n    _onDeserialization:\r\n   
-    \r\n        PUSH, __String_0\r\n        PUSH, __message_0\r\n        COPY\r\n       
-    PUSH, __message_0\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
-    PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n        PUSH,
-    __original_1\r\n        PUSH, __clone_1\r\n        EXTERN, \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
+    \r\n        PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n       
+    PUSH, __original_1\r\n        PUSH, __clone_1\r\n        EXTERN, \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
     PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n        PUSH,
     __clone_1\r\n        PUSH, __instance_7\r\n        COPY\r\n        PUSH, __clone_1\r\n       
     PUSH, __type_2\r\n        PUSH, __instance_6\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
@@ -75,9 +72,6 @@ MonoBehaviour:
     __clone_1\r\n        PUSH, __instance_7\r\n        COPY\r\n        PUSH, __instance_6\r\n       
     PUSH, __instance_B\r\n        COPY\r\n        PUSH, __instance_6\r\n        PUSH,
     pushPos\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPreSerialization\r\n    \r\n    _onPreSerialization:\r\n   
-    \r\n        PUSH, __String_1\r\n        PUSH, __message_1\r\n        COPY\r\n       
-    PUSH, __message_1\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -93,7 +87,7 @@ MonoBehaviour:
       - 36a8d550-4928-4c58-a7c7-be71a866e27d
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SpawnLocalTomato
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SpawnLocalObject
     - fullName: Variable_UnityEngineGameObject
       uid: 1e2831f2-237e-4159-926b-56cc4154b6c2
       position: {x: 0, y: 0}
@@ -180,7 +174,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: UnityEngineTransform.__set_rotation__UnityEngineQuaternion__SystemVoid
       uid: b561526c-3ea8-4569-9ee0-68152daabb2a
-      position: {x: 1760, y: 171}
+      position: {x: 2005.5865, y: -162}
       nodeUIDs:
       - fd9ba92d-6ad5-442e-86ba-c394067dc7da|0
       - 2a75de4b-2943-4c60-b988-284afbfca67a|0
@@ -194,7 +188,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0,"w":0.0}
     - fullName: UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent
       uid: fd9ba92d-6ad5-442e-86ba-c394067dc7da
-      position: {x: 1119.3121, y: 7.95825}
+      position: {x: 1201.0616, y: 165.70775}
       nodeUIDs:
       - 36a8d550-4928-4c58-a7c7-be71a866e27d|0
       - 
@@ -263,7 +257,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 2a75de4b-2943-4c60-b988-284afbfca67a
-      position: {x: 1506.2301, y: 311.0025}
+      position: {x: 1769.0895, y: 125.582504}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -359,59 +353,41 @@ MonoBehaviour:
       position: {x: 280, y: -85}
       nodeUIDs: []
       flowUIDs:
-      - 6e782eea-c4a7-4af1-81a3-c3c2cad84883
-      nodeValues: []
-    - fullName: UnityEngineDebug.__Log__SystemObject__SystemVoid
-      uid: 6e782eea-c4a7-4af1-81a3-c3c2cad84883
-      position: {x: 633.8426, y: -69.93501}
-      nodeUIDs:
-      - 382cf8fb-5f42-4558-ab2d-475530a9b997|0
-      flowUIDs:
       - 36a8d550-4928-4c58-a7c7-be71a866e27d
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: Const_SystemString
-      uid: 382cf8fb-5f42-4558-ab2d-475530a9b997
-      position: {x: 305, y: 38}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|fooobar
-    - fullName: Event_OnPreSerialization
-      uid: 322bb96f-0a97-4a71-b4a0-48a7657f5e76
-      position: {x: 593, y: -330}
-      nodeUIDs: []
-      flowUIDs:
-      - 939e515e-cf2f-4e05-ad09-affa1a6c5732
       nodeValues: []
-    - fullName: UnityEngineDebug.__Log__SystemObject__SystemVoid
-      uid: 939e515e-cf2f-4e05-ad09-affa1a6c5732
-      position: {x: 921, y: -339}
+    - fullName: Variable_SystemString
+      uid: b4f37ffa-d3f9-4712-a54c-45487797316d
+      position: {x: 0, y: 0}
       nodeUIDs:
-      - 7f4825c4-d4fc-4732-8135-a55fa87caafa|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: Const_SystemString
-      uid: 7f4825c4-d4fc-4732-8135-a55fa87caafa
-      position: {x: 645, y: -222}
-      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
       - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|yeeee
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|newVariable
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: 22e89c8b-89e2-410b-9456-3b70994b6ad7
+    uid: b6c3f5f5-3e60-4619-9486-5077e398c9ba
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":1044.0,"y":25.0,"width":309.0,"height":174.0}}'
+  - type: 4
+    uid: 9a88e2c8-5f8c-4cb7-a236-c4fa1af45543
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":957.0,"y":681.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -482, y: 420}
-    scale: 1
+    position: {x: -381, y: 275}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
