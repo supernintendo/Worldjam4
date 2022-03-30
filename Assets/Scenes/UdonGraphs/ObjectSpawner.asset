@@ -140,7 +140,7 @@ MonoBehaviour:
     uid: d4e6a5b5-f3f2-40c6-9ab6-51b98780c8cf
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":294.0,"y":110.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: 804, y: -50}
-    scale: 0.7561437
+    position: {x: 602, y: -159}
+    scale: 0.8695652
   version: 1.0.0
   showAssembly: 0
