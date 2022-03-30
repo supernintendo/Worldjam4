@@ -391,7 +391,7 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null|{"r":1.0,"g":1.0,"b":1.0,"a":0.8627451062202454}
+          Culture=neutral, PublicKeyToken=null|{"r":0.0,"g":0.0,"b":0.0,"a":1.0}
     - fullName: TMProTextMeshPro.__set_color__UnityEngineColor__SystemVoid
       uid: 892ce1ae-8558-4be4-a89f-8dc993388058
       position: {x: 2395, y: 49}
@@ -404,7 +404,7 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null|{"r":1.0,"g":0.0,"b":0.0,"a":0.8627451062202454}
+          Culture=neutral, PublicKeyToken=null|{"r":1.0,"g":0.0,"b":0.0,"a":1.0}
     - fullName: SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean
       uid: 89ad79ed-fcde-4da1-b233-35292a393622
       position: {x: 1872, y: 166}
@@ -423,7 +423,7 @@ MonoBehaviour:
     uid: 4a22138c-727f-41c9-9aff-c3fa51b0953f
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":896.0,"y":538.0,"width":309.0,"height":174.0}}'
   viewTransform:
-    position: {x: -213, y: 287}
+    position: {x: -2120, y: 372}
     scale: 1
   version: 1.0.0
   showAssembly: 0

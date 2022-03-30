@@ -69,7 +69,7 @@ MonoBehaviour:
     nodes:
     - fullName: Event_OnCollisionEnter
       uid: 0598d7c1-9e19-45eb-b394-92475e0a60bb
-      position: {x: 2177.1006, y: 453.50006}
+      position: {x: 2211, y: 144}
       nodeUIDs: []
       flowUIDs:
       - 7056b5b9-1969-48a2-82a1-4ace0df31e3a
@@ -112,7 +112,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 35e35d38-0eee-42d7-aaa6-1fecdbee8291
-      position: {x: 2666, y: 496}
+      position: {x: 2638, y: 480}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -217,7 +217,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Branch
       uid: 7056b5b9-1969-48a2-82a1-4ace0df31e3a
-      position: {x: 2621, y: 282}
+      position: {x: 2618, y: 252}
       nodeUIDs:
       - de4c7d3e-a1ff-49b3-8303-4d3e72647511|0
       flowUIDs:
@@ -447,13 +447,13 @@ MonoBehaviour:
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: fefea6f3-8db5-4ecf-97da-c726415b3618
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":876.0,"y":532.0,"width":309.0,"height":174.0}}'
+    uid: dd76d85a-756d-43e1-b589-71d69982d499
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":418.0,"y":94.0,"width":309.0,"height":174.0}}'
   - type: 4
-    uid: c5699ddf-f202-4ab7-905f-dca9ab792d11
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":1.0,"width":200.0,"height":100.0}}'
+    uid: 07b1306c-eec1-47a5-8b71-d9bc8d63bd37
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":75.0,"y":241.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -3353, y: -68}
-    scale: 1
+    position: {x: -2986, y: 150}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0

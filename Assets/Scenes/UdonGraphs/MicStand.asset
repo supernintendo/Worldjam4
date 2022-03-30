@@ -764,10 +764,13 @@ MonoBehaviour:
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: b6c3f5f5-3e60-4619-9486-5077e398c9ba
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":1054.0,"y":563.0,"width":309.0,"height":174.0}}'
+    uid: 13563459-83ae-4ff4-9745-c85b39dfae46
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":684.0,"y":567.0,"width":309.0,"height":174.0}}'
+  - type: 4
+    uid: 8882f125-e314-4bba-bcf7-6bffb917b575
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -231, y: -211}
-    scale: 0.43232757
+    position: {x: -1680, y: -11.000001}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
