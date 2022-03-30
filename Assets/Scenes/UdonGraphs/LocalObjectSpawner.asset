@@ -23,20 +23,12 @@ MonoBehaviour:
     this\r\n    __type_1: %SystemString, null\r\n    __instance_5: %UnityEngineTransform,
     this\r\n    __value_2: %UnityEngineVector3, null\r\n    __instance_1: %UnityEngineGameObject,
     this\r\n    __type_0: %SystemString, null\r\n    __original_0: %UnityEngineGameObject,
-    this\r\n    __clone_1: %UnityEngineGameObject, this\r\n    __instance_6: %UnityEngineTransform,
-    this\r\n    __value_3: %UnityEngineQuaternion, null\r\n    __instance_8: %UnityEngineRigidbody,
-    null\r\n    __value_4: %UnityEngineVector3, null\r\n    __instance_A: %UnityEngineRigidbody,
-    null\r\n    __force_1: %UnityEngineVector3, null\r\n    __instance_9: %UnityEngineGameObject,
-    this\r\n    __type_3: %SystemString, null\r\n    __instance_B: %UnityEngineTransform,
-    this\r\n    __value_5: %UnityEngineVector3, null\r\n    __instance_7: %UnityEngineGameObject,
-    this\r\n    __type_2: %SystemString, null\r\n    __original_1: %UnityEngineGameObject,
     this\r\n    testObj: %UnityEngineGameObject, this\r\n    pushPos: %UnityEngineVector3,
     null\r\n    pushRot: %UnityEngineQuaternion, null\r\n    pushVel: %UnityEngineVector3,
-    null\r\n    pushAng: %UnityEngineVector3, null\r\n    newVariable: %SystemString,
-    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export SpawnLocalObject\r\n   
-    \r\n    SpawnLocalObject:\r\n    \r\n        PUSH, testObj\r\n        PUSH, __original_0\r\n       
-    COPY\r\n        PUSH, __original_0\r\n        PUSH, __clone_0\r\n        EXTERN,
-    \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
+    null\r\n    pushAng: %UnityEngineVector3, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export SpawnLocalObject\r\n    \r\n    SpawnLocalObject:\r\n    \r\n       
+    PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
+    __original_0\r\n        PUSH, __clone_0\r\n        EXTERN, \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
     PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
     __clone_0\r\n        PUSH, __instance_1\r\n        COPY\r\n        PUSH, __clone_0\r\n       
     PUSH, __type_0\r\n        PUSH, __instance_0\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
@@ -52,25 +44,6 @@ MonoBehaviour:
     PUSH, testObj\r\n        PUSH, __original_0\r\n        COPY\r\n        PUSH,
     __clone_0\r\n        PUSH, __instance_1\r\n        COPY\r\n        PUSH, __instance_0\r\n       
     PUSH, __instance_5\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
-    pushPos\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n    _onDeserialization:\r\n   
-    \r\n        PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n       
-    PUSH, __original_1\r\n        PUSH, __clone_1\r\n        EXTERN, \"VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject\"\r\n       
-    PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n        PUSH,
-    __clone_1\r\n        PUSH, __instance_7\r\n        COPY\r\n        PUSH, __clone_1\r\n       
-    PUSH, __type_2\r\n        PUSH, __instance_6\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_6\r\n        PUSH, pushRot\r\n        EXTERN, \"UnityEngineTransform.__set_rotation__UnityEngineQuaternion__SystemVoid\"\r\n       
-    PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n        PUSH,
-    __clone_1\r\n        PUSH, __instance_9\r\n        COPY\r\n        PUSH, __clone_1\r\n       
-    PUSH, __type_3\r\n        PUSH, __instance_8\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_8\r\n        PUSH, pushAng\r\n        EXTERN, \"UnityEngineRigidbody.__set_angularVelocity__UnityEngineVector3__SystemVoid\"\r\n       
-    PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n        PUSH,
-    __clone_1\r\n        PUSH, __instance_9\r\n        COPY\r\n        PUSH, __instance_8\r\n       
-    PUSH, __instance_A\r\n        COPY\r\n        PUSH, __instance_8\r\n        PUSH,
-    pushVel\r\n        EXTERN, \"UnityEngineRigidbody.__AddForce__UnityEngineVector3__SystemVoid\"\r\n       
-    PUSH, testObj\r\n        PUSH, __original_1\r\n        COPY\r\n        PUSH,
-    __clone_1\r\n        PUSH, __instance_7\r\n        COPY\r\n        PUSH, __instance_6\r\n       
-    PUSH, __instance_B\r\n        COPY\r\n        PUSH, __instance_6\r\n        PUSH,
     pushPos\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
@@ -188,7 +161,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0,"w":0.0}
     - fullName: UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent
       uid: fd9ba92d-6ad5-442e-86ba-c394067dc7da
-      position: {x: 1201.0616, y: 165.70775}
+      position: {x: 1199.4791, y: 188.81314}
       nodeUIDs:
       - 36a8d550-4928-4c58-a7c7-be71a866e27d|0
       - 
@@ -348,46 +321,16 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
-    - fullName: Event_OnDeserialization
-      uid: b807830a-c57c-4ca4-b500-ccf1349a4883
-      position: {x: 280, y: -85}
-      nodeUIDs: []
-      flowUIDs:
-      - 36a8d550-4928-4c58-a7c7-be71a866e27d
-      nodeValues: []
-    - fullName: Variable_SystemString
-      uid: b4f37ffa-d3f9-4712-a54c-45487797316d
-      position: {x: 0, y: 0}
-      nodeUIDs:
-      - 
-      - 
-      - 
-      - 
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|newVariable
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: b6c3f5f5-3e60-4619-9486-5077e398c9ba
+    uid: 832ceea2-1534-4dc6-9de7-dae60a753ecd
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":1044.0,"y":25.0,"width":309.0,"height":174.0}}'
   - type: 4
     uid: 9a88e2c8-5f8c-4cb7-a236-c4fa1af45543
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":957.0,"y":681.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -381, y: 275}
-    scale: 0.7561437
+    position: {x: -737, y: 71.00001}
+    scale: 0.8695652
   version: 1.0.0
   showAssembly: 0

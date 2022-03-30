@@ -62,7 +62,7 @@ Material:
     - _DstBlend: 0
     - _EnableEmission: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.033
+    - _Glossiness: 0.589
     - _GlossyReflections: 1
     - _Metallic: 0.691
     - _Mode: 0
