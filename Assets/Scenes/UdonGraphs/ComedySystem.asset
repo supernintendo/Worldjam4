@@ -32,32 +32,28 @@ MonoBehaviour:
     %UnityEngineGameObject, this\r\n    __instance_7: %VRCUdonUdonBehaviour, this\r\n   
     __symbolName_2: %SystemString, null\r\n    __value_2: %SystemObject, null\r\n   
     __Int32_0: %SystemInt32, null\r\n    __instance_8: %VRCUdonUdonBehaviour, this\r\n   
-    __instance_9: %UnityEngineCollider, null\r\n    __value_3: %SystemBoolean, null\r\n   
-    __instance_A: %UnityEngineGameObject, this\r\n    __type_2: %SystemString, null\r\n   
-    __instance_B: %VRCUdonUdonBehaviour, this\r\n    __eventName_1: %SystemString,
-    null\r\n    __instance_C: %VRCUdonUdonBehaviour, this\r\n    __eventName_2: %SystemString,
-    null\r\n    __instance_D: %UnityEngineMeshRenderer, null\r\n    __value_4: %SystemBoolean,
+    __instance_9: %VRCUdonUdonBehaviour, this\r\n    __eventName_1: %SystemString,
+    null\r\n    __instance_A: %VRCUdonUdonBehaviour, this\r\n    __eventName_2: %SystemString,
+    null\r\n    __instance_B: %UnityEngineMeshRenderer, null\r\n    __value_3: %SystemBoolean,
+    null\r\n    __instance_C: %UnityEngineGameObject, this\r\n    __type_2: %SystemString,
+    null\r\n    __instance_D: %UnityEngineCollider, null\r\n    __value_4: %SystemBoolean,
     null\r\n    __instance_E: %UnityEngineGameObject, this\r\n    __type_3: %SystemString,
-    null\r\n    __instance_F: %UnityEngineCollider, null\r\n    __value_5: %SystemBoolean,
-    null\r\n    __instance_10: %UnityEngineGameObject, this\r\n    __type_4: %SystemString,
-    null\r\n    __GameObject_1: %UnityEngineGameObject, this\r\n    __instance_11:
-    %UnityEngineCollider, null\r\n    __value_6: %SystemBoolean, null\r\n    __instance_12:
-    %UnityEngineGameObject, this\r\n    __type_5: %SystemString, null\r\n    __instance_13:
-    %UnityEngineMeshRenderer, null\r\n    __value_7: %SystemBoolean, null\r\n   
-    __instance_14: %UnityEngineGameObject, this\r\n    __type_6: %SystemString, null\r\n   
-    __instance_15: %UnityEngineCollider, null\r\n    __value_8: %SystemBoolean, null\r\n   
-    __instance_16: %UnityEngineGameObject, this\r\n    __type_7: %SystemString, null\r\n   
+    null\r\n    __GameObject_1: %UnityEngineGameObject, this\r\n    __instance_F:
+    %UnityEngineMeshRenderer, null\r\n    __value_5: %SystemBoolean, null\r\n   
+    __instance_10: %UnityEngineGameObject, this\r\n    __type_4: %SystemString, null\r\n   
+    __instance_11: %UnityEngineCollider, null\r\n    __value_6: %SystemBoolean, null\r\n   
+    __instance_12: %UnityEngineGameObject, this\r\n    __type_5: %SystemString, null\r\n   
     __GameObject_2: %UnityEngineGameObject, this\r\n    __message_0: %SystemObject,
-    null\r\n    __instance_17: %VRCUdonUdonBehaviour, this\r\n    __symbolName_3:
-    %SystemString, null\r\n    __value_9: %SystemObject, null\r\n    __Int32_1: %SystemInt32,
-    null\r\n    __Int32_2: %SystemInt32, null\r\n    __instance_18: %VRCUdonUdonBehaviour,
-    this\r\n    __instance_19: %VRCUdonUdonBehaviour, this\r\n    __eventName_3:
-    %SystemString, null\r\n    __String_0: %SystemString, null\r\n    __instance_1A:
+    null\r\n    __instance_13: %VRCUdonUdonBehaviour, this\r\n    __symbolName_3:
+    %SystemString, null\r\n    __value_7: %SystemObject, null\r\n    __Int32_1: %SystemInt32,
+    null\r\n    __Int32_2: %SystemInt32, null\r\n    __instance_14: %VRCUdonUdonBehaviour,
+    this\r\n    __instance_15: %VRCUdonUdonBehaviour, this\r\n    __eventName_3:
+    %SystemString, null\r\n    __String_0: %SystemString, null\r\n    __instance_16:
     %VRCUdonUdonBehaviour, this\r\n    __symbolName_4: %SystemString, null\r\n   
-    __value_A: %SystemObject, null\r\n    __Int32_3: %SystemInt32, null\r\n    __Int32_4:
-    %SystemInt32, null\r\n    __instance_1B: %VRCUdonUdonBehaviour, this\r\n    __instance_1C:
+    __value_8: %SystemObject, null\r\n    __Int32_3: %SystemInt32, null\r\n    __Int32_4:
+    %SystemInt32, null\r\n    __instance_17: %VRCUdonUdonBehaviour, this\r\n    __instance_18:
     %VRCUdonUdonBehaviour, this\r\n    __eventName_4: %SystemString, null\r\n   
-    __String_1: %SystemString, null\r\n    __instance_1D: %VRCUdonUdonBehaviour,
+    __String_1: %SystemString, null\r\n    __instance_19: %VRCUdonUdonBehaviour,
     this\r\n    __eventName_5: %SystemString, null\r\n    __String_2: %SystemString,
     null\r\n    comedianPos: %UnityEngineVector3, null\r\n    comedianRot: %UnityEngineQuaternion,
     null\r\n    crowdMinX: %SystemSingle, null\r\n    crowdMaxX: %SystemSingle, null\r\n   
@@ -92,58 +88,50 @@ MonoBehaviour:
     PUSH, __instance_7\r\n        PUSH, __symbolName_2\r\n        PUSH, __value_2\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
     PUSH, __instance_8\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
-    PUSH, stageBoundary\r\n        PUSH, __instance_A\r\n        COPY\r\n       
-    PUSH, __instance_A\r\n        PUSH, __type_2\r\n        PUSH, __instance_9\r\n       
+    PUSH, timeDisplay\r\n        PUSH, __instance_9\r\n        COPY\r\n        PUSH,
+    __instance_9\r\n        PUSH, __eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    PUSH, micProp\r\n        PUSH, __instance_A\r\n        COPY\r\n        PUSH,
+    __instance_A\r\n        PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    PUSH, __GameObject_1\r\n        PUSH, __instance_C\r\n        COPY\r\n       
+    PUSH, __instance_C\r\n        PUSH, __type_2\r\n        PUSH, __instance_B\r\n       
     EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_9\r\n        PUSH, __value_3\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
-    PUSH, timeDisplay\r\n        PUSH, __instance_B\r\n        COPY\r\n        PUSH,
-    __instance_B\r\n        PUSH, __eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    PUSH, micProp\r\n        PUSH, __instance_C\r\n        COPY\r\n        PUSH,
-    __instance_C\r\n        PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    PUSH, __instance_B\r\n        PUSH, __value_3\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
     PUSH, __GameObject_1\r\n        PUSH, __instance_E\r\n        COPY\r\n       
     PUSH, __instance_E\r\n        PUSH, __type_3\r\n        PUSH, __instance_D\r\n       
     EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_D\r\n        PUSH, __value_4\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
-    PUSH, __GameObject_1\r\n        PUSH, __instance_10\r\n        COPY\r\n       
+    PUSH, __instance_D\r\n        PUSH, __value_4\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export RoundEnded\r\n    \r\n    RoundEnded:\r\n   
+    \r\n        PUSH, __GameObject_2\r\n        PUSH, __instance_10\r\n        COPY\r\n       
     PUSH, __instance_10\r\n        PUSH, __type_4\r\n        PUSH, __instance_F\r\n       
     EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_F\r\n        PUSH, __value_5\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n    .export RoundEnded\r\n    \r\n    RoundEnded:\r\n   
-    \r\n        PUSH, stageBoundary\r\n        PUSH, __instance_12\r\n        COPY\r\n       
+    PUSH, __instance_F\r\n        PUSH, __value_5\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
+    PUSH, __GameObject_2\r\n        PUSH, __instance_12\r\n        COPY\r\n       
     PUSH, __instance_12\r\n        PUSH, __type_5\r\n        PUSH, __instance_11\r\n       
     EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
     PUSH, __instance_11\r\n        PUSH, __value_6\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
-    PUSH, __GameObject_2\r\n        PUSH, __instance_14\r\n        COPY\r\n       
-    PUSH, __instance_14\r\n        PUSH, __type_6\r\n        PUSH, __instance_13\r\n       
-    EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_13\r\n        PUSH, __value_7\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
-    PUSH, __GameObject_2\r\n        PUSH, __instance_16\r\n        COPY\r\n       
-    PUSH, __instance_16\r\n        PUSH, __type_7\r\n        PUSH, __instance_15\r\n       
-    EXTERN, \"UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent\"\r\n       
-    PUSH, __instance_15\r\n        PUSH, __value_8\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export IncrementScore\r\n    \r\n    IncrementScore:\r\n   
     \r\n        PUSH, score\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
-    PUSH, score\r\n        PUSH, __Int32_2\r\n        PUSH, __value_9\r\n       
+    PUSH, score\r\n        PUSH, __Int32_2\r\n        PUSH, __value_7\r\n       
     EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
-    PUSH, __instance_17\r\n        PUSH, __symbolName_3\r\n        PUSH, __value_9\r\n       
+    PUSH, __instance_13\r\n        PUSH, __symbolName_3\r\n        PUSH, __value_7\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
-    PUSH, __instance_18\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
-    PUSH, scoreDisplay\r\n        PUSH, __instance_19\r\n        COPY\r\n       
+    PUSH, __instance_14\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
+    PUSH, scoreDisplay\r\n        PUSH, __instance_15\r\n        COPY\r\n       
     PUSH, __String_0\r\n        PUSH, __eventName_3\r\n        COPY\r\n        PUSH,
-    __instance_19\r\n        PUSH, __eventName_3\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    __instance_15\r\n        PUSH, __eventName_3\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export DecrementScore\r\n    \r\n    DecrementScore:\r\n   
-    \r\n        PUSH, score\r\n        PUSH, __Int32_4\r\n        PUSH, __value_A\r\n       
+    \r\n        PUSH, score\r\n        PUSH, __Int32_4\r\n        PUSH, __value_8\r\n       
     EXTERN, \"SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32\"\r\n       
-    PUSH, __instance_1A\r\n        PUSH, __symbolName_4\r\n        PUSH, __value_A\r\n       
+    PUSH, __instance_16\r\n        PUSH, __symbolName_4\r\n        PUSH, __value_8\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
-    PUSH, __instance_1B\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
-    PUSH, scoreDisplay\r\n        PUSH, __instance_1C\r\n        COPY\r\n       
+    PUSH, __instance_17\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
+    PUSH, scoreDisplay\r\n        PUSH, __instance_18\r\n        COPY\r\n       
     PUSH, __String_1\r\n        PUSH, __eventName_4\r\n        COPY\r\n        PUSH,
-    __instance_1C\r\n        PUSH, __eventName_4\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    __instance_18\r\n        PUSH, __eventName_4\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n    _onDeserialization:\r\n   
-    \r\n        PUSH, scoreDisplay\r\n        PUSH, __instance_1D\r\n        COPY\r\n       
+    \r\n        PUSH, scoreDisplay\r\n        PUSH, __instance_19\r\n        COPY\r\n       
     PUSH, __String_2\r\n        PUSH, __eventName_5\r\n        COPY\r\n        PUSH,
-    __instance_1D\r\n        PUSH, __eventName_5\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    __instance_19\r\n        PUSH, __eventName_5\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -404,43 +392,6 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
-    - fullName: Get_Variable
-      uid: 6453e8d3-6742-46c5-ad34-a1fba3d4e5cf
-      position: {x: 1284.5497, y: 541.50195}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|b942f599-5fa8-4741-a097-5b32be390f05
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid
-      uid: a249599a-29e3-400b-8e31-373cdfab99dc
-      position: {x: 1985.19, y: 107.71001}
-      nodeUIDs:
-      - f0f93aa2-6523-499e-98c2-3ea33f9ed5d9|0
-      - 
-      flowUIDs:
-      - e04f6d73-50a9-4c06-b0ae-cada49cb8c9c
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
-    - fullName: UnityEngineGameObject.__GetComponent__SystemString__UnityEngineComponent
-      uid: f0f93aa2-6523-499e-98c2-3ea33f9ed5d9
-      position: {x: 1538.5542, y: 362.35492}
-      nodeUIDs:
-      - 6453e8d3-6742-46c5-ad34-a1fba3d4e5cf|0
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Collider
     - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
       uid: 9eabe1f3-789d-4f66-b6ed-31a8572b3d05
       position: {x: 0, y: 0}
@@ -731,28 +682,14 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|comedian
     - fullName: Event_Custom
       uid: 901d9706-c232-49b6-97a3-a707adc395f0
-      position: {x: 1415.6243, y: -275.9344}
+      position: {x: 1449.3502, y: -277.15}
       nodeUIDs:
-      - 
-      flowUIDs:
-      - 8079583b-7f87-4b3d-9a1f-a982f4d0044a
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|RoundEnded
-    - fullName: UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid
-      uid: 8079583b-7f87-4b3d-9a1f-a982f4d0044a
-      position: {x: 1959.7751, y: -183.02911}
-      nodeUIDs:
-      - f0f93aa2-6523-499e-98c2-3ea33f9ed5d9|0
       - 
       flowUIDs:
       - 16d5851c-ae2e-4cc5-a053-322be0f26863
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|RoundEnded
     - fullName: UnityEngineMeshRenderer.__set_enabled__SystemBoolean__SystemVoid
       uid: 16d5851c-ae2e-4cc5-a053-322be0f26863
       position: {x: 2326.8528, y: -155.07959}
@@ -1005,11 +942,11 @@ MonoBehaviour:
         stringValue: 
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid
       uid: 8b89df4f-851b-43a0-bef2-0a9f903828d6
-      position: {x: 1734.85, y: -12.650003}
+      position: {x: 1648.7502, y: -73.95007}
       nodeUIDs:
       - 
       flowUIDs:
-      - a249599a-29e3-400b-8e31-373cdfab99dc
+      - e04f6d73-50a9-4c06-b0ae-cada49cb8c9c
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -1038,7 +975,7 @@ MonoBehaviour:
     uid: 8882f125-e314-4bba-bcf7-6bffb917b575
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -701, y: 891}
-    scale: 0.8695652
+    position: {x: -871, y: 387}
+    scale: 0.65751624
   version: 1.0.0
   showAssembly: 0
