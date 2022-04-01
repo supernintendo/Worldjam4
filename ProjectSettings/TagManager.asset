@@ -30,8 +30,8 @@ TagManager:
   - StageBoundary
   - SpawnerBoundary
   - Spawner
-  - 
-  - 
+  - SlapCollider
+  - FaceCollider
   - 
   - 
   - 

@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: SlapCollider
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: f1253d1262be61e41a26334cc7c3cd6f,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export leftHanded\r\n    .sync leftHanded,
+    none\r\n    .sync playerId, none\r\n    .sync initialized, none\r\n    \r\n   
+    __Boolean_0: %SystemBoolean, null\r\n    __Boolean_1: %SystemBoolean, null\r\n   
+    __instance_0: %UnityEngineTransform, this\r\n    __value_0: %UnityEngineVector3,
+    null\r\n    __instance_2: %VRCSDKBaseVRCPlayerApi, null\r\n    __tt_0: %UnityEngineHumanBodyBones,
+    null\r\n    __instance_3: %UnityEngineTransform, this\r\n    __value_1: %UnityEngineVector3,
+    null\r\n    __instance_1: %UnityEngineGameObject, this\r\n    __GameObject_0:
+    %UnityEngineGameObject, this\r\n    __instance_4: %VRCSDKBaseVRCPlayerApi, null\r\n   
+    __tt_1: %UnityEngineHumanBodyBones, null\r\n    __playerId_0: %SystemInt32, null\r\n   
+    leftHanded: %SystemBoolean, null\r\n    playerId: %SystemInt32, null\r\n    initialized:
+    %SystemBoolean, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _lateUpdate\r\n   
+    \r\n    _lateUpdate:\r\n    \r\n        PUSH, initialized\r\n        JUMP_IF_FALSE,
+    0x00000120\r\n        PUSH, leftHanded\r\n        JUMP_IF_FALSE, 0x000000A4\r\n       
+    PUSH, __GameObject_0\r\n        PUSH, __instance_1\r\n        COPY\r\n       
+    PUSH, __instance_1\r\n        PUSH, __instance_0\r\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\r\n       
+    PUSH, playerId\r\n        PUSH, __instance_2\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __instance_2\r\n        PUSH, __tt_0\r\n        PUSH, __value_0\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3\"\r\n       
+    PUSH, __instance_0\r\n        PUSH, __value_0\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n       
+    JUMP, 0x00000118\r\n        PUSH, __GameObject_0\r\n        PUSH, __instance_1\r\n       
+    COPY\r\n        PUSH, __instance_0\r\n        PUSH, __instance_3\r\n        COPY\r\n       
+    PUSH, __instance_2\r\n        PUSH, __instance_4\r\n        COPY\r\n        PUSH,
+    __instance_2\r\n        PUSH, __tt_1\r\n        PUSH, __value_1\r\n        EXTERN,
+    \"VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3\"\r\n       
+    PUSH, __instance_0\r\n        PUSH, __value_1\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n       
+    JUMP, 0x00000120\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3
+      uid: 8ff540ff-310d-46f0-a9e6-41b9897d195d
+      position: {x: -572, y: 590}
+      nodeUIDs:
+      - 525c8e49-8ce0-4910-82d7-cfc4ff340b25|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.HumanBodyBones, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|LeftHand
+    - fullName: Variable_SystemBoolean
+      uid: 38ddd890-ef1b-4d7b-a5e9-a825375c6c30
+      position: {x: 525.15216, y: -721.4131}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|leftHanded
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 71c0f467-d526-499d-a604-c4c7ed21d6d0
+      position: {x: -977.5201, y: 1207.125}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|38ddd890-ef1b-4d7b-a5e9-a825375c6c30
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Branch
+      uid: 7c07a06b-0fe6-4c7a-8e30-0cbe08c158b7
+      position: {x: -550.85, y: 777.3501}
+      nodeUIDs:
+      - 71c0f467-d526-499d-a604-c4c7ed21d6d0|0
+      flowUIDs:
+      - ed30a620-7bd1-4db7-8e0d-4eea2db398a6
+      - 8d7145a5-eda9-4874-bb59-9bffd0c02ddd
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: Event_LateUpdate
+      uid: 2b7d9d2b-4572-4e5d-857a-d7f95a21264a
+      position: {x: -1800.07, y: 966.45514}
+      nodeUIDs: []
+      flowUIDs:
+      - 2a9bab50-e813-4836-931f-a14a26df9727
+      nodeValues: []
+    - fullName: VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3
+      uid: 21a5fe91-e507-4b97-92f6-5797f94cd00b
+      position: {x: -519.5653, y: 1033.0435}
+      nodeUIDs:
+      - 525c8e49-8ce0-4910-82d7-cfc4ff340b25|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.HumanBodyBones, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|RightHand
+    - fullName: Const_This
+      uid: be5c79cd-4e94-40ba-967e-2a57614e1af6
+      position: {x: -730, y: 443.32}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineGameObject.__get_transform__UnityEngineTransform
+      uid: 0dc1783a-2455-4270-a386-c3d34c37278a
+      position: {x: -483, y: 465}
+      nodeUIDs:
+      - be5c79cd-4e94-40ba-967e-2a57614e1af6|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid
+      uid: ed30a620-7bd1-4db7-8e0d-4eea2db398a6
+      position: {x: 7, y: 467.6}
+      nodeUIDs:
+      - 0dc1783a-2455-4270-a386-c3d34c37278a|0
+      - 8ff540ff-310d-46f0-a9e6-41b9897d195d|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
+    - fullName: UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid
+      uid: 8d7145a5-eda9-4874-bb59-9bffd0c02ddd
+      position: {x: -49, y: 806}
+      nodeUIDs:
+      - 0dc1783a-2455-4270-a386-c3d34c37278a|0
+      - 21a5fe91-e507-4b97-92f6-5797f94cd00b|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
+    - fullName: Variable_SystemInt32
+      uid: 3dcd0b6a-5af1-4293-84c2-9f769a7ecd89
+      position: {x: 3071.29, y: -1842.5176}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|playerId
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_SystemBoolean
+      uid: de8d90bb-b977-48a2-b2e3-ec40834d7ae0
+      position: {x: 3071.29, y: -1842.5176}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|initialized
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: f0da0b13-198f-435a-bdf6-fbd7fa0418bd
+      position: {x: -1576.5125, y: 1124.935}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|de8d90bb-b977-48a2-b2e3-ec40834d7ae0
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Branch
+      uid: 2a9bab50-e813-4836-931f-a14a26df9727
+      position: {x: -1382.46, y: 938.61255}
+      nodeUIDs:
+      - f0da0b13-198f-435a-bdf6-fbd7fa0418bd|0
+      flowUIDs:
+      - 7c07a06b-0fe6-4c7a-8e30-0cbe08c158b7
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi
+      uid: 525c8e49-8ce0-4910-82d7-cfc4ff340b25
+      position: {x: -1271.22, y: 778.8725}
+      nodeUIDs:
+      - 3c306e3c-b93a-476e-82c3-e5b447e34db0|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
+    - fullName: Get_Variable
+      uid: 3c306e3c-b93a-476e-82c3-e5b447e34db0
+      position: {x: -1504.0275, y: 717.5825}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|3dcd0b6a-5af1-4293-84c2-9f769a7ecd89
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    updateOrder: 0
+  graphElementData:
+  - type: 5
+    uid: c6a7c823-8902-453d-8709-70240f2941ea
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":57.0,"y":151.0,"width":200.0,"height":150.0}}'
+  - type: 4
+    uid: 4d147fd2-89d2-4058-9915-14efef016c80
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":1205.0,"y":803.0,"width":200.0,"height":100.0}}'
+  viewTransform:
+    position: {x: 1414, y: 169}
+    scale: 0.8695652
+  version: 1.0.0
+  showAssembly: 0
