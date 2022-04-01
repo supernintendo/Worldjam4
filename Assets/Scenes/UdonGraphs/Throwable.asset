@@ -925,7 +925,7 @@ MonoBehaviour:
     jsonData: '{"uid":"48144543-bb83-476c-886c-f8670795cf62","layout":{"serializedVersion":"2","x":104.0,"y":836.0,"width":1857.0,"height":707.0},"containedElements":["47aee416-a270-4d8b-8fda-e3b4fc1082ce","5ce47ad9-46d1-4160-8bea-08b1c6578cea","41dd8814-9b2a-436d-a41c-7a1aeb99c9fe","420c51ea-f366-4745-ba31-a28cd77843e0","4537d2f9-6872-4e2b-a37a-07d5ff954687","18bcd095-87fb-4151-b87e-d04b88e28fd5","ca3de32b-66a7-436f-83c6-09c0588356d4","3f080ad9-36e0-4c8a-89fc-38403bd60ad2","f6c286a3-2371-4e04-bc99-59177ff99e7e","eb1a2dab-28d4-4d85-9464-eacc2e2b6318","073c6e20-ab38-4068-9bf0-ff148db9c0f3"],"title":"Tomato
       Splat","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: 536, y: 143}
-    scale: 0.49717674
+    position: {x: -3217, y: 883}
+    scale: 1
   version: 1.0.0
   showAssembly: 0

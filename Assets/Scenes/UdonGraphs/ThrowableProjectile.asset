@@ -306,7 +306,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Const_SystemBoolean
       uid: b973f538-c980-4614-8a61-092f224cb581
-      position: {x: 4441.1274, y: 774.1851}
+      position: {x: 4366.94, y: 714.4875}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -394,7 +394,7 @@ MonoBehaviour:
     uid: 07b1306c-eec1-47a5-8b71-d9bc8d63bd37
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":75.0,"y":241.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -1234, y: 150}
-    scale: 0.49717674
+    position: {x: -2643, y: 133}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
