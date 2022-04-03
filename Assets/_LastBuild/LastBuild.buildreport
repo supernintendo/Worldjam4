@@ -1,0 +1,3056 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-8901377749228420908
+PackedAssets:
+  m_File: 2
+  m_ShortPath: BuildPlayer-ChuckleFucks.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 4352
+    offset: 0
+    sourceAssetGUID: e312cc67e6605514580f1446317f1e0b
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/cancel.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 22048
+    offset: 0
+    sourceAssetGUID: a6fa62a6fe756d147bd3dca06e79a225
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/double_hit.ogg
+  - fileID: 0
+    classID: 83
+    packedSize: 25568
+    offset: 0
+    sourceAssetGUID: 1e4fbee20e79cb543a1e0a4e1e02eeec
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/select.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 26752
+    offset: 0
+    sourceAssetGUID: 27f4832f6e829244caa68e6aa81bce6b
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/triple_hit.ogg
+  - fileID: 0
+    classID: 83
+    packedSize: 37760
+    offset: 0
+    sourceAssetGUID: e369b3c1084640b43b69bd4066c79e49
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/confirm.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 51072
+    offset: 0
+    sourceAssetGUID: e9b8e18ae80730c418654f7d25b92fb6
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/hit.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 197088
+    offset: 0
+    sourceAssetGUID: 468e3cdf973df9345a2dd9210c996e30
+    buildTimeAssetPath: Assets/Scenes/sfx/slap.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 216320
+    offset: 0
+    sourceAssetGUID: c5ec716c81551e642a9de3601f6e1f82
+    buildTimeAssetPath: Assets/Scenes/sfx/yay.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 540928
+    offset: 0
+    sourceAssetGUID: 01511eb183fc8864d962248201d63dde
+    buildTimeAssetPath: Assets/Scenes/sfx/boo.wav
+--- !u!1126 &-5070115919369613659
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-afc5cc58d9735617375885f98b54af01
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!668709126 &-4822606075841780053
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-chucklefucks.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: Worldjam4
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!382020655 &-3809563428475761452
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - OVRPlugin
+  - System.Threading.Tasks.Extensions
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - nunit.framework
+  - librsync.net
+  - VRC.Udon.Common
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Udon.Wrapper
+  - VRC.Udon.Security
+  - clipper_library
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - unityplastic
+  - VRC.Udon.UAssembly
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRCSDKBase-Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!641289076 &-3695751131355690170
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 9
+  m_AudioMixerCount: 0
+--- !u!1126 &-2421689693014271935
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-ChuckleFucks.sharedAssets
+  m_Overhead: 292718
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 85
+    offset: 294264
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 160
+    offset: 294352
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 900
+    offset: 294512
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 4
+    classID: 21
+    packedSize: 1576
+    offset: 295416
+    sourceAssetGUID: 9a3b1e8a8dbce9c40858b1d009683eca
+    buildTimeAssetPath: Assets/VRCBilliardsCE/Fonts/Calistoga SDF.asset
+  - fileID: 5
+    classID: 21
+    packedSize: 1052
+    offset: 296992
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 21
+    packedSize: 252
+    offset: 298048
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 7
+    classID: 21
+    packedSize: 912
+    offset: 298304
+    sourceAssetGUID: 0e01b52db2874f3468f27aec9eafd4ad
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Materials/MT_Darts.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 892
+    offset: 299216
+    sourceAssetGUID: 1fc806fdcc6b25b45b148246c79fa860
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_Black.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 908
+    offset: 300112
+    sourceAssetGUID: d2e02bbfa1e599642ab4174a7aa149c1
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_Buttons.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 920
+    offset: 301024
+    sourceAssetGUID: 32da7654f72acb049986c8d02546d96a
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_DartsBoard (segment).mat
+  - fileID: 11
+    classID: 21
+    packedSize: 900
+    offset: 301944
+    sourceAssetGUID: 9edfbf5c9c7a9ae4a80af4d500f88b66
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_DartsBoard.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 952
+    offset: 302848
+    sourceAssetGUID: ee9c127f8892d1543ab6f2af70739397
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_Holder.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 912
+    offset: 303800
+    sourceAssetGUID: 4b30cae24b6ee6d40bd736e46a0392dc
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_LightEmission.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 904
+    offset: 304712
+    sourceAssetGUID: cb44ee9b49578f54281f9a045234d743
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Materials/MT_Text.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 688
+    offset: 305616
+    sourceAssetGUID: e1d6c87da839d7f408ba295aed138c22
+    buildTimeAssetPath: Assets/Scenes/TomatoTest/Placeholder/TestMat07.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 688
+    offset: 306304
+    sourceAssetGUID: c07466eabf37eb84080f49da07c09107
+    buildTimeAssetPath: Assets/Scenes/TomatoTest/Placeholder/TestMat08.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 684
+    offset: 306992
+    sourceAssetGUID: c93dd560dfd70da48b44ad2bbfc23f2d
+    buildTimeAssetPath: Assets/Scenes/materials/Display.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 684
+    offset: 307680
+    sourceAssetGUID: 4294442c922d58049a3288d76eca3242
+    buildTimeAssetPath: Assets/Scenes/materials/Metal.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 680
+    offset: 308368
+    sourceAssetGUID: f5d0c52481523fa4b8ce3638a04f58f6
+    buildTimeAssetPath: Assets/Scenes/materials/Mic.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 684
+    offset: 309048
+    sourceAssetGUID: 8f41984fdff423842b1702ff80e63793
+    buildTimeAssetPath: Assets/Scenes/materials/MicStand.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 892
+    offset: 309736
+    sourceAssetGUID: 2bc501b9fb234cb44970447ae55ab483
+    buildTimeAssetPath: Assets/Scenes/materials/Paper.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 896
+    offset: 310632
+    sourceAssetGUID: d84eaa75f152d6c498bd8c123aa50e9a
+    buildTimeAssetPath: Assets/Scenes/materials/TestMat01.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 896
+    offset: 311528
+    sourceAssetGUID: 09eac89e8df2874478674bf439677486
+    buildTimeAssetPath: Assets/Scenes/materials/TestMat02.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 908
+    offset: 312424
+    sourceAssetGUID: ba5e22a1a1d04e44ab271f434a36cde6
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar Trans.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 916
+    offset: 313336
+    sourceAssetGUID: 9dd13dc0a4d03b34189ed756306b4be2
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 968
+    offset: 314256
+    sourceAssetGUID: 8ace66e14e7f15c4ebf7e28837847f0c
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room1/Room1.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 992
+    offset: 315224
+    sourceAssetGUID: ebdff4f095b6a6749a6a61a43b079ae0
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room2/room2.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 700
+    offset: 316216
+    sourceAssetGUID: c0369093e2782484cbbe6cb4f3b58c92
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/throwables/throwables.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 984
+    offset: 316920
+    sourceAssetGUID: c321a2bc01f7885498d5d7139b081eef
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/walldecorations/WallDecorations.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 1660
+    offset: 317904
+    sourceAssetGUID: e73a58f6e2794ae7b1b7e50b7fb811b0
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Drop Shadow.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 1592
+    offset: 319568
+    sourceAssetGUID: 79459efec17a4d00a321bdcc27bbc385
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Outline.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 136
+    offset: 321160
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 33
+    classID: 21
+    packedSize: 2004
+    offset: 321296
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 34
+    classID: 21
+    packedSize: 944
+    offset: 323304
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 35
+    classID: 21
+    packedSize: 892
+    offset: 324248
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 36
+    classID: 21
+    packedSize: 892
+    offset: 325144
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 37
+    classID: 21
+    packedSize: 892
+    offset: 326040
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 38
+    classID: 21
+    packedSize: 892
+    offset: 326936
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 39
+    classID: 28
+    packedSize: 5568
+    offset: 327832
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 40
+    classID: 28
+    packedSize: 371028
+    offset: 333400
+    sourceAssetGUID: 025b59b577b3ff9498137634e9a4d1bb
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/walldecorations/WallDecorations_WallDecorations_Normal.png
+  - fileID: 41
+    classID: 28
+    packedSize: 4204
+    offset: 704432
+    sourceAssetGUID: 02c0a84bd64c6f044954d8bde9b46ec8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
+  - fileID: 42
+    classID: 28
+    packedSize: 946948
+    offset: 708640
+    sourceAssetGUID: 055f1fed154aacf45a0d5c1545870ab1
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room1/room1_Room1_Normal.png
+  - fileID: 43
+    classID: 28
+    packedSize: 4204
+    offset: 1655592
+    sourceAssetGUID: 09f6c01f98a3ded4daf1afc52a3c260f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_26.png
+  - fileID: 44
+    classID: 28
+    packedSize: 4204
+    offset: 1659800
+    sourceAssetGUID: 0a79c155edf9b2d429d4736abee5acdb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png
+  - fileID: 45
+    classID: 28
+    packedSize: 65644
+    offset: 1664008
+    sourceAssetGUID: 0f8fa14b3731cda4e947062e734d5e1e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_1.png
+  - fileID: 46
+    classID: 28
+    packedSize: 4204
+    offset: 1729656
+    sourceAssetGUID: 0fa10b21877c61b4db40ba5708815f81
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png
+  - fileID: 47
+    classID: 28
+    packedSize: 4204
+    offset: 1733864
+    sourceAssetGUID: 119591e0bb084e848835d237546b3882
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_61.png
+  - fileID: 48
+    classID: 28
+    packedSize: 4204
+    offset: 1738072
+    sourceAssetGUID: 1378a33cdd085d64c9da863d2484ff21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_47.png
+  - fileID: 49
+    classID: 28
+    packedSize: 4204
+    offset: 1742280
+    sourceAssetGUID: 153f7d6dfbe713d4884df0f1e243ba92
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_16.png
+  - fileID: 50
+    classID: 28
+    packedSize: 4204
+    offset: 1746488
+    sourceAssetGUID: 15e54aa23a938444389469d53765d741
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_44.png
+  - fileID: 51
+    classID: 28
+    packedSize: 5592556
+    offset: 1750696
+    sourceAssetGUID: 17b71f7c5a81bc040a3f95311e414646
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar_BarTransparency_Normal.png
+  - fileID: 52
+    classID: 28
+    packedSize: 4204
+    offset: 7343256
+    sourceAssetGUID: 1a9ce5640cde5934aae0022f020464a6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_40.png
+  - fileID: 53
+    classID: 28
+    packedSize: 65644
+    offset: 7347464
+    sourceAssetGUID: 1abfe0e165ca1e9428b455ffc9a2d9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_2.png
+  - fileID: 54
+    classID: 28
+    packedSize: 4204
+    offset: 7413112
+    sourceAssetGUID: 1d6958e30e40a254dbe5a54c573eeb3c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
+  - fileID: 55
+    classID: 28
+    packedSize: 699196
+    offset: 7417320
+    sourceAssetGUID: 1ed313c79c14b694e98e8c650c51aff1
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/throwables/throwables_DefaultMaterial_BaseColor.png
+  - fileID: 56
+    classID: 28
+    packedSize: 174016
+    offset: 8116520
+    sourceAssetGUID: 262ffb99cc098214983f0bf6f0b52a06
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/walldecorations/WallDecorations_WallDecorations_Roughness.png
+  - fileID: 57
+    classID: 28
+    packedSize: 1834760
+    offset: 8290536
+    sourceAssetGUID: 2c222c70f67459644829cb5d96a2adda
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room1/room1_Room1_BaseColor.png
+  - fileID: 58
+    classID: 28
+    packedSize: 4204
+    offset: 10125296
+    sourceAssetGUID: 2ee161d8945169243b5698fec114e1b7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png
+  - fileID: 59
+    classID: 28
+    packedSize: 4204
+    offset: 10129504
+    sourceAssetGUID: 319b8e66db3faa4438cf6982e9c89b2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_34.png
+  - fileID: 60
+    classID: 28
+    packedSize: 4204
+    offset: 10133712
+    sourceAssetGUID: 32c6a5f7143b86c44bd5cdee2ff3f8ad
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_24.png
+  - fileID: 61
+    classID: 28
+    packedSize: 66180
+    offset: 10137920
+    sourceAssetGUID: 33fe01300c9ca7f46865c6b1b82a63c3
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/walldecorations/WallDecorations_WallDecorations_Emissive.png
+  - fileID: 62
+    classID: 28
+    packedSize: 4204
+    offset: 10204104
+    sourceAssetGUID: 351e95d0e20a54849bd4ce5f9b498934
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png
+  - fileID: 63
+    classID: 28
+    packedSize: 5592552
+    offset: 10208312
+    sourceAssetGUID: 35b2a3ca31e47c147868281c4cb3c48b
+    buildTimeAssetPath: Assets/Scenes/ChuckleFucks/Lightmap-0_comp_light.exr
+  - fileID: 64
+    classID: 28
+    packedSize: 4204
+    offset: 15800864
+    sourceAssetGUID: 373f9bf6b0841af4ebf26d25e4a3f4e2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png
+  - fileID: 65
+    classID: 28
+    packedSize: 4204
+    offset: 15805072
+    sourceAssetGUID: 3ac02e7e783571c468f9c086d2384ba7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png
+  - fileID: 66
+    classID: 28
+    packedSize: 87516
+    offset: 15809280
+    sourceAssetGUID: 3bd23304c2183384ba90e79d95f13053
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/CountUpIcon.png
+  - fileID: 67
+    classID: 28
+    packedSize: 4204
+    offset: 15896800
+    sourceAssetGUID: 3c2f1fb7e4b66e74191b7c328ada52d9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
+  - fileID: 68
+    classID: 28
+    packedSize: 76800
+    offset: 15901008
+    sourceAssetGUID: 3d1fb1c456ca5124c8171bea065708d6
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room1/room1_Room1_Metallic.png
+  - fileID: 69
+    classID: 28
+    packedSize: 4204
+    offset: 15977808
+    sourceAssetGUID: 3f7c3687170b90e4a8d2ee6b142670f4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_49.png
+  - fileID: 70
+    classID: 28
+    packedSize: 4204
+    offset: 15982016
+    sourceAssetGUID: 404fa8def46b1c447817e1ebdaa7144e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_60.png
+  - fileID: 71
+    classID: 28
+    packedSize: 1674540
+    offset: 15986224
+    sourceAssetGUID: 41699c0e2a479c74c9240cd00124da12
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar_Bar_BaseColor.png
+  - fileID: 72
+    classID: 28
+    packedSize: 4204
+    offset: 17660768
+    sourceAssetGUID: 4a11d65ce13d5f542a0ff136cc2f3fba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_63.png
+  - fileID: 73
+    classID: 28
+    packedSize: 4204
+    offset: 17664976
+    sourceAssetGUID: 50b54341495978843a6f85583ed4417d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_0.png
+  - fileID: 74
+    classID: 28
+    packedSize: 4204
+    offset: 17669184
+    sourceAssetGUID: 547dbd5f858c74047ba3f213e4408307
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_39.png
+  - fileID: 75
+    classID: 28
+    packedSize: 4204
+    offset: 17673392
+    sourceAssetGUID: 5e542d0126a2c7848b66bffc428905fd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_55.png
+  - fileID: 76
+    classID: 28
+    packedSize: 65644
+    offset: 17677600
+    sourceAssetGUID: 6017f374382d64245a0a4aab668e6f38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png
+  - fileID: 77
+    classID: 28
+    packedSize: 4204
+    offset: 17743248
+    sourceAssetGUID: 68613e6a221be1a4b9f31d7fa1c2d1bf
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png
+  - fileID: 78
+    classID: 28
+    packedSize: 308764
+    offset: 17747456
+    sourceAssetGUID: 6a9bfdf39d3195e4f912566ee6d66aa1
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room2/Room2_Room2_Normal.png
+  - fileID: 79
+    classID: 28
+    packedSize: 4204
+    offset: 18056224
+    sourceAssetGUID: 6b0a189df0bd4d5448eaefb4e673ace8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_31.png
+  - fileID: 80
+    classID: 28
+    packedSize: 4204
+    offset: 18060432
+    sourceAssetGUID: 6dda07f1420a968449cf4c6620c44d9f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_20.png
+  - fileID: 81
+    classID: 28
+    packedSize: 4204
+    offset: 18064640
+    sourceAssetGUID: 6fa5cf178eaaa5f42b820f636bb6e0bd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
+  - fileID: 82
+    classID: 28
+    packedSize: 65644
+    offset: 18068848
+    sourceAssetGUID: 70d0a1182b29d6347ac70374c3593bba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_7.png
+  - fileID: 83
+    classID: 28
+    packedSize: 4204
+    offset: 18134496
+    sourceAssetGUID: 70f23eaf7d8ae9147aa542d20e93733b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_56.png
+  - fileID: 84
+    classID: 28
+    packedSize: 87512
+    offset: 18138704
+    sourceAssetGUID: 70febe7945d39d64aa5e85b210011890
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/1mark.png
+  - fileID: 85
+    classID: 28
+    packedSize: 4204
+    offset: 18226216
+    sourceAssetGUID: 71583cfd8899717428d5b1a95fa39cda
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_9.png
+  - fileID: 86
+    classID: 28
+    packedSize: 4204
+    offset: 18230424
+    sourceAssetGUID: 71bc1b6b66e8b784b972199b7e90204e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_43.png
+  - fileID: 87
+    classID: 28
+    packedSize: 4204
+    offset: 18234632
+    sourceAssetGUID: 729a3ae164bcb3b4380459386adcf331
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png
+  - fileID: 88
+    classID: 28
+    packedSize: 268904
+    offset: 18238840
+    sourceAssetGUID: 73ec4ae984a0a0f44a2be737e41a6f2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+  - fileID: 89
+    classID: 28
+    packedSize: 4204
+    offset: 18507744
+    sourceAssetGUID: 74aca53eb7273624baffc2bf5e5cc173
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_18.png
+  - fileID: 90
+    classID: 28
+    packedSize: 4204
+    offset: 18511952
+    sourceAssetGUID: 771903fe7b4674445829e52e91cff019
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png
+  - fileID: 91
+    classID: 28
+    packedSize: 76868
+    offset: 18516160
+    sourceAssetGUID: 791ceadd068884c478e80f79e8147af2
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/Tx_DartsBoard.png
+  - fileID: 92
+    classID: 28
+    packedSize: 4204
+    offset: 18593032
+    sourceAssetGUID: 79b86f3419b87f3429164a956da8cfab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_6.png
+  - fileID: 93
+    classID: 28
+    packedSize: 1398260
+    offset: 18597240
+    sourceAssetGUID: 7dab5abd86f013347ad0f6c498222d05
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/throwables/throwables_DefaultMaterial_Normal.png
+  - fileID: 94
+    classID: 28
+    packedSize: 4204
+    offset: 19995504
+    sourceAssetGUID: 85a45a6d8b2ffb84987d2b028ecfb220
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_58.png
+  - fileID: 95
+    classID: 28
+    packedSize: 4204
+    offset: 19999712
+    sourceAssetGUID: 87a5e40cc271ea648b583616f6ebe7fe
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_32.png
+  - fileID: 96
+    classID: 28
+    packedSize: 4204
+    offset: 20003920
+    sourceAssetGUID: 8ecbbcae4cc747a4abbc4adce795d25e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_46.png
+  - fileID: 97
+    classID: 28
+    packedSize: 4204
+    offset: 20008128
+    sourceAssetGUID: 936dea238abb0864ab3985a995e16a29
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_54.png
+  - fileID: 98
+    classID: 28
+    packedSize: 4204
+    offset: 20012336
+    sourceAssetGUID: 9660a4ca1ca8425408ac25c641932977
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
+  - fileID: 99
+    classID: 28
+    packedSize: 4204
+    offset: 20016544
+    sourceAssetGUID: 980acadb960f8424c94307ec0e585b4e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_12.png
+  - fileID: 100
+    classID: 28
+    packedSize: 65644
+    offset: 20020752
+    sourceAssetGUID: 999434725cbc2be4eb54043b36efd4a8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png
+  - fileID: 101
+    classID: 28
+    packedSize: 4204
+    offset: 20086400
+    sourceAssetGUID: a03c400b0e3959f428ee99dfc6cfc263
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_62.png
+  - fileID: 102
+    classID: 28
+    packedSize: 4204
+    offset: 20090608
+    sourceAssetGUID: a1ae041906217ae44a774d4ca139af50
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_5.png
+  - fileID: 103
+    classID: 28
+    packedSize: 2796332
+    offset: 20094816
+    sourceAssetGUID: a2219f41df9cdc341b47970d007cea22
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room1/room1_Room1_Emissive.png
+  - fileID: 104
+    classID: 28
+    packedSize: 4204
+    offset: 22891152
+    sourceAssetGUID: a469f920b21fc7c4fb5b950917ce2fb2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
+  - fileID: 105
+    classID: 28
+    packedSize: 32380
+    offset: 22895360
+    sourceAssetGUID: a7060f5754d0a8045904ceeb2604b059
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Textures/TX_Darts_Albedo.png
+  - fileID: 106
+    classID: 28
+    packedSize: 4204
+    offset: 22927744
+    sourceAssetGUID: aa80dc44aa4fe4c43bb9d51d90cf2958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_29.png
+  - fileID: 107
+    classID: 28
+    packedSize: 65644
+    offset: 22931952
+    sourceAssetGUID: acde5141d5f4f7a4188394bd52c4dc38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png
+  - fileID: 108
+    classID: 28
+    packedSize: 4204
+    offset: 22997600
+    sourceAssetGUID: afe1e502240079342a0a980484b6da8b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_10.png
+  - fileID: 109
+    classID: 28
+    packedSize: 4204
+    offset: 23001808
+    sourceAssetGUID: aff59c63d25d43f4c938f248837c30fb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png
+  - fileID: 110
+    classID: 28
+    packedSize: 87512
+    offset: 23006016
+    sourceAssetGUID: b159ad84fc66a0d459d600342aedcbae
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/NoMarks.png
+  - fileID: 111
+    classID: 28
+    packedSize: 4204
+    offset: 23093528
+    sourceAssetGUID: b266511438fae724f9d3ce6bd26583e8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png
+  - fileID: 112
+    classID: 28
+    packedSize: 65644
+    offset: 23097736
+    sourceAssetGUID: b52d5033b68309943a2386c270a90f44
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_4.png
+  - fileID: 113
+    classID: 28
+    packedSize: 18456
+    offset: 23163384
+    sourceAssetGUID: b5b8455f38169fc4798a9b4c6d02ee1a
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room2/Room2_Room2_Emissive.png
+  - fileID: 114
+    classID: 28
+    packedSize: 4204
+    offset: 23181840
+    sourceAssetGUID: b71bb466b71fd13449dd736f63caeb67
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png
+  - fileID: 115
+    classID: 28
+    packedSize: 4204
+    offset: 23186048
+    sourceAssetGUID: b7f000750830ddb4bbc80065b9314ce9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png
+  - fileID: 116
+    classID: 28
+    packedSize: 87512
+    offset: 23190256
+    sourceAssetGUID: b82c04fba79251e49a83c45b0028a8fb
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/2marks.png
+  - fileID: 117
+    classID: 28
+    packedSize: 4204
+    offset: 23277768
+    sourceAssetGUID: b9960364038cbfa4aa49d7b2032d3110
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_45.png
+  - fileID: 118
+    classID: 28
+    packedSize: 43828
+    offset: 23281976
+    sourceAssetGUID: b9e257d3e41a70c47a647edb6a4d7f96
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/dart.png
+  - fileID: 119
+    classID: 28
+    packedSize: 4204
+    offset: 23325808
+    sourceAssetGUID: bdd06fb88ef36ed4a85dd506352c2d80
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png
+  - fileID: 120
+    classID: 28
+    packedSize: 87516
+    offset: 23330016
+    sourceAssetGUID: beb4977d25e50f04783a2cb0f520c98e
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/CricketIcon.png
+  - fileID: 121
+    classID: 28
+    packedSize: 4204
+    offset: 23417536
+    sourceAssetGUID: bf95b6fdc179b0e4f890c841406193fc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png
+  - fileID: 122
+    classID: 28
+    packedSize: 222804
+    offset: 23421744
+    sourceAssetGUID: bfd2017ff04e2fd4fb902af2d1ac97e1
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar_Bar_Normal.png
+  - fileID: 123
+    classID: 28
+    packedSize: 4204
+    offset: 23644552
+    sourceAssetGUID: bfe953600e8fb1849a804ee08ace7b4c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png
+  - fileID: 124
+    classID: 28
+    packedSize: 65644
+    offset: 23648760
+    sourceAssetGUID: c072b653e98a06e40857d76ca8c7eecd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png
+  - fileID: 125
+    classID: 28
+    packedSize: 2380788
+    offset: 23714408
+    sourceAssetGUID: c2e3b88e4a413294fb8115a091cfd706
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room2/Room2_Room2_BaseColor.png
+  - fileID: 126
+    classID: 28
+    packedSize: 45636
+    offset: 26095200
+    sourceAssetGUID: c4c0f1472a99c0b4e8d7e06e2ebe3888
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room2/Room2_Room2_Metallic.png
+  - fileID: 127
+    classID: 28
+    packedSize: 4204
+    offset: 26140840
+    sourceAssetGUID: c55042318a938344ab23cd7f09dd0076
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_8.png
+  - fileID: 128
+    classID: 28
+    packedSize: 87520
+    offset: 26145048
+    sourceAssetGUID: c76492dab64c9bc469eb396ec38c796c
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/ZeroOneGamesIcon.png
+  - fileID: 129
+    classID: 28
+    packedSize: 5592560
+    offset: 26232568
+    sourceAssetGUID: c7922ee0e51f693449f63e61dbd8f4f5
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar_BarTransparency_BaseColor.png
+  - fileID: 130
+    classID: 28
+    packedSize: 4204
+    offset: 31825128
+    sourceAssetGUID: c94b57b5a32a22d43ade66e09f6a4bd2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png
+  - fileID: 131
+    classID: 28
+    packedSize: 4204
+    offset: 31829336
+    sourceAssetGUID: cd9006dc442cc244e89b3f492384d46a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png
+  - fileID: 132
+    classID: 28
+    packedSize: 4204
+    offset: 31833544
+    sourceAssetGUID: d2e8e90fac2e6a341a38e1c3963c218d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_52.png
+  - fileID: 133
+    classID: 28
+    packedSize: 4204
+    offset: 31837752
+    sourceAssetGUID: d5a51525b27e3ee4aadbeb39cbcf0750
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png
+  - fileID: 134
+    classID: 28
+    packedSize: 4204
+    offset: 31841960
+    sourceAssetGUID: d8c290e38ff0425409d0ae6a98c95e41
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_50.png
+  - fileID: 135
+    classID: 28
+    packedSize: 4204
+    offset: 31846168
+    sourceAssetGUID: d96974690c77f50489eb60ec84bd8dac
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_59.png
+  - fileID: 136
+    classID: 28
+    packedSize: 1132
+    offset: 31850376
+    sourceAssetGUID: d99701099481a2f489610e977df6dcbc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+  - fileID: 137
+    classID: 28
+    packedSize: 36800
+    offset: 31851512
+    sourceAssetGUID: dd6f3d2e8a0eea940a63e6b2a951dafb
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Textures/TX_Darts_metallic_smoothness.png
+  - fileID: 138
+    classID: 28
+    packedSize: 5592548
+    offset: 31888312
+    sourceAssetGUID: dec7ec85d5b648b439521eb12253035b
+    buildTimeAssetPath: Assets/Scenes/ChuckleFucks/Lightmap-0_comp_dir.png
+  - fileID: 139
+    classID: 28
+    packedSize: 4204
+    offset: 37480864
+    sourceAssetGUID: df01d03f056c6f445b4b8a0ae054207c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_22.png
+  - fileID: 140
+    classID: 28
+    packedSize: 4204
+    offset: 37485072
+    sourceAssetGUID: e138166e7a7c70f49943be7edda35d35
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png
+  - fileID: 141
+    classID: 28
+    packedSize: 108
+    offset: 37489280
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 142
+    classID: 28
+    packedSize: 2796328
+    offset: 37489392
+    sourceAssetGUID: e4f32966094693448bebef8f88953243
+    buildTimeAssetPath: Assets/Quick-Size Reference/Textures/QSR_BaseColor.png
+  - fileID: 143
+    classID: 28
+    packedSize: 379532
+    offset: 40285720
+    sourceAssetGUID: e6bf1731efe905e48acc9e404d5def34
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/walldecorations/WallDecorations_WallDecorations_BaseColor.png
+  - fileID: 144
+    classID: 28
+    packedSize: 168816
+    offset: 40665256
+    sourceAssetGUID: f02e4230f3cba324992a1b2dcb88735a
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/room2/Room2_Room2_Roughness.png
+  - fileID: 145
+    classID: 28
+    packedSize: 17192
+    offset: 40834072
+    sourceAssetGUID: f215a8b9928fcf34e82e6234dfa95adf
+    buildTimeAssetPath: Assets/Scenes/meshes/textures/Bar/Bar_Bar_Metallic.png
+  - fileID: 146
+    classID: 28
+    packedSize: 4204
+    offset: 40851264
+    sourceAssetGUID: f4b8ab78b57749d4e96d36f6d8a395d0
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_25.png
+  - fileID: 147
+    classID: 28
+    packedSize: 4204
+    offset: 40855472
+    sourceAssetGUID: f6439b54b28f3884eb67579dec0b6f21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_14.png
+  - fileID: 148
+    classID: 28
+    packedSize: 262264
+    offset: 40859680
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 149
+    classID: 28
+    packedSize: 1048696
+    offset: 41121944
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 150
+    classID: 28
+    packedSize: 1048692
+    offset: 42170640
+    sourceAssetGUID: 9a3b1e8a8dbce9c40858b1d009683eca
+    buildTimeAssetPath: Assets/VRCBilliardsCE/Fonts/Calistoga SDF.asset
+  - fileID: 151
+    classID: 43
+    packedSize: 50388
+    offset: 43219336
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 152
+    classID: 43
+    packedSize: 103104
+    offset: 43269728
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 153
+    classID: 43
+    packedSize: 93668
+    offset: 43372832
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 154
+    classID: 43
+    packedSize: 37612
+    offset: 43466504
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 155
+    classID: 43
+    packedSize: 412
+    offset: 43504120
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 156
+    classID: 43
+    packedSize: 3720
+    offset: 43504536
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 157
+    classID: 43
+    packedSize: 29456
+    offset: 43508256
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 158
+    classID: 43
+    packedSize: 400
+    offset: 43537712
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 159
+    classID: 43
+    packedSize: 17276
+    offset: 43538112
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 160
+    classID: 43
+    packedSize: 16444
+    offset: 43555392
+    sourceAssetGUID: c7921254f0d35a7439bb6e8d0642d2df
+    buildTimeAssetPath: Assets/Scenes/meshes/FBXs/throwables.fbx
+  - fileID: 161
+    classID: 43
+    packedSize: 2620
+    offset: 43571840
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 162
+    classID: 43
+    packedSize: 2320
+    offset: 43574464
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 163
+    classID: 43
+    packedSize: 2620
+    offset: 43576784
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 164
+    classID: 43
+    packedSize: 2320
+    offset: 43579408
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 165
+    classID: 43
+    packedSize: 2620
+    offset: 43581728
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 166
+    classID: 43
+    packedSize: 22724
+    offset: 43584352
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 167
+    classID: 43
+    packedSize: 2620
+    offset: 43607080
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 168
+    classID: 43
+    packedSize: 11620
+    offset: 43609704
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 169
+    classID: 43
+    packedSize: 25948
+    offset: 43621328
+    sourceAssetGUID: 4a5f51df71a31554dbbde0b2b7d59006
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Models/Darts.fbx
+  - fileID: 170
+    classID: 43
+    packedSize: 2792
+    offset: 43647280
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 171
+    classID: 43
+    packedSize: 2320
+    offset: 43650072
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 172
+    classID: 43
+    packedSize: 46904
+    offset: 43652392
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 173
+    classID: 43
+    packedSize: 2320
+    offset: 43699296
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 174
+    classID: 43
+    packedSize: 2624
+    offset: 43701616
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 175
+    classID: 43
+    packedSize: 2320
+    offset: 43704240
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 176
+    classID: 43
+    packedSize: 22484
+    offset: 43706560
+    sourceAssetGUID: c6418889a1713554f938e170258d5afa
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/Controller.fbx
+  - fileID: 177
+    classID: 43
+    packedSize: 2320
+    offset: 43729048
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 178
+    classID: 43
+    packedSize: 132088
+    offset: 43731368
+    sourceAssetGUID: 4a5f51df71a31554dbbde0b2b7d59006
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Models/Darts.fbx
+  - fileID: 179
+    classID: 43
+    packedSize: 2320
+    offset: 43863456
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 180
+    classID: 43
+    packedSize: 2320
+    offset: 43865776
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 181
+    classID: 43
+    packedSize: 2320
+    offset: 43868096
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 182
+    classID: 43
+    packedSize: 12024
+    offset: 43870416
+    sourceAssetGUID: 4a5f51df71a31554dbbde0b2b7d59006
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Models/Darts.fbx
+  - fileID: 183
+    classID: 43
+    packedSize: 2320
+    offset: 43882440
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 184
+    classID: 43
+    packedSize: 10728
+    offset: 43884760
+    sourceAssetGUID: 4a5f51df71a31554dbbde0b2b7d59006
+    buildTimeAssetPath: Assets/Aoinu Works/Darts/Models/Darts.fbx
+  - fileID: 185
+    classID: 43
+    packedSize: 2320
+    offset: 43895488
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 186
+    classID: 43
+    packedSize: 2320
+    offset: 43897808
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 187
+    classID: 43
+    packedSize: 2320
+    offset: 43900128
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 188
+    classID: 43
+    packedSize: 2320
+    offset: 43902448
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 189
+    classID: 43
+    packedSize: 2208
+    offset: 43904768
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 190
+    classID: 43
+    packedSize: 2208
+    offset: 43906976
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 191
+    classID: 43
+    packedSize: 2320
+    offset: 43909184
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 192
+    classID: 43
+    packedSize: 2320
+    offset: 43911504
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 193
+    classID: 43
+    packedSize: 2320
+    offset: 43913824
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 194
+    classID: 43
+    packedSize: 2320
+    offset: 43916144
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 195
+    classID: 43
+    packedSize: 2320
+    offset: 43918464
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 196
+    classID: 43
+    packedSize: 2320
+    offset: 43920784
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 197
+    classID: 43
+    packedSize: 2320
+    offset: 43923104
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 198
+    classID: 43
+    packedSize: 2320
+    offset: 43925424
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 199
+    classID: 43
+    packedSize: 2320
+    offset: 43927744
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 200
+    classID: 43
+    packedSize: 2320
+    offset: 43930064
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 201
+    classID: 43
+    packedSize: 2320
+    offset: 43932384
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 202
+    classID: 43
+    packedSize: 2320
+    offset: 43934704
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 203
+    classID: 43
+    packedSize: 2320
+    offset: 43937024
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 204
+    classID: 43
+    packedSize: 2320
+    offset: 43939344
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 205
+    classID: 43
+    packedSize: 2320
+    offset: 43941664
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 206
+    classID: 43
+    packedSize: 2320
+    offset: 43943984
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 207
+    classID: 43
+    packedSize: 2320
+    offset: 43946304
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 208
+    classID: 43
+    packedSize: 2320
+    offset: 43948624
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 209
+    classID: 43
+    packedSize: 2320
+    offset: 43950944
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 210
+    classID: 43
+    packedSize: 2320
+    offset: 43953264
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 211
+    classID: 43
+    packedSize: 2320
+    offset: 43955584
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 212
+    classID: 43
+    packedSize: 2320
+    offset: 43957904
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 213
+    classID: 43
+    packedSize: 2320
+    offset: 43960224
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 214
+    classID: 43
+    packedSize: 2320
+    offset: 43962544
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 215
+    classID: 43
+    packedSize: 2320
+    offset: 43964864
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 216
+    classID: 43
+    packedSize: 2320
+    offset: 43967184
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 217
+    classID: 43
+    packedSize: 2320
+    offset: 43969504
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 218
+    classID: 43
+    packedSize: 2320
+    offset: 43971824
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 219
+    classID: 43
+    packedSize: 2320
+    offset: 43974144
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 220
+    classID: 43
+    packedSize: 2320
+    offset: 43976464
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 221
+    classID: 43
+    packedSize: 2320
+    offset: 43978784
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 222
+    classID: 43
+    packedSize: 2320
+    offset: 43981104
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 223
+    classID: 43
+    packedSize: 2320
+    offset: 43983424
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 224
+    classID: 43
+    packedSize: 2320
+    offset: 43985744
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 225
+    classID: 43
+    packedSize: 2320
+    offset: 43988064
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 226
+    classID: 43
+    packedSize: 2320
+    offset: 43990384
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 227
+    classID: 43
+    packedSize: 2320
+    offset: 43992704
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 228
+    classID: 43
+    packedSize: 2320
+    offset: 43995024
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 229
+    classID: 43
+    packedSize: 2320
+    offset: 43997344
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 230
+    classID: 43
+    packedSize: 2320
+    offset: 43999664
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 231
+    classID: 43
+    packedSize: 2320
+    offset: 44001984
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 232
+    classID: 43
+    packedSize: 2320
+    offset: 44004304
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 233
+    classID: 43
+    packedSize: 2320
+    offset: 44006624
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 234
+    classID: 43
+    packedSize: 2320
+    offset: 44008944
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 235
+    classID: 43
+    packedSize: 2320
+    offset: 44011264
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 236
+    classID: 43
+    packedSize: 2320
+    offset: 44013584
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 237
+    classID: 43
+    packedSize: 2320
+    offset: 44015904
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 238
+    classID: 43
+    packedSize: 2320
+    offset: 44018224
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 239
+    classID: 43
+    packedSize: 2320
+    offset: 44020544
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 240
+    classID: 43
+    packedSize: 2320
+    offset: 44022864
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 241
+    classID: 43
+    packedSize: 2320
+    offset: 44025184
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 242
+    classID: 43
+    packedSize: 2320
+    offset: 44027504
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 243
+    classID: 43
+    packedSize: 2320
+    offset: 44029824
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 244
+    classID: 43
+    packedSize: 2320
+    offset: 44032144
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 245
+    classID: 43
+    packedSize: 2320
+    offset: 44034464
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 246
+    classID: 43
+    packedSize: 2320
+    offset: 44036784
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 247
+    classID: 43
+    packedSize: 2320
+    offset: 44039104
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 248
+    classID: 43
+    packedSize: 2320
+    offset: 44041424
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 249
+    classID: 43
+    packedSize: 2320
+    offset: 44043744
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 250
+    classID: 43
+    packedSize: 2320
+    offset: 44046064
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 251
+    classID: 43
+    packedSize: 2320
+    offset: 44048384
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 252
+    classID: 43
+    packedSize: 2320
+    offset: 44050704
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 253
+    classID: 43
+    packedSize: 2320
+    offset: 44053024
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 254
+    classID: 43
+    packedSize: 2320
+    offset: 44055344
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 255
+    classID: 43
+    packedSize: 1245120
+    offset: 44057664
+    sourceAssetGUID: d1ab5865f352e5e418ee90db7a0cb059
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Models/DartsBoard.fbx
+  - fileID: 256
+    classID: 43
+    packedSize: 408
+    offset: 45302784
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 257
+    classID: 43
+    packedSize: 294636
+    offset: 45303192
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 258
+    classID: 43
+    packedSize: 77492
+    offset: 45597832
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 259
+    classID: 43
+    packedSize: 17064
+    offset: 45675328
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 260
+    classID: 43
+    packedSize: 15740
+    offset: 45692392
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 261
+    classID: 43
+    packedSize: 87796
+    offset: 45708136
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 262
+    classID: 43
+    packedSize: 385028
+    offset: 45795936
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 263
+    classID: 43
+    packedSize: 32440
+    offset: 46180968
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 264
+    classID: 43
+    packedSize: 50388
+    offset: 46213408
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 265
+    classID: 43
+    packedSize: 21092
+    offset: 46263800
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 266
+    classID: 43
+    packedSize: 400
+    offset: 46284896
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 267
+    classID: 43
+    packedSize: 31060
+    offset: 46285296
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 268
+    classID: 43
+    packedSize: 22844
+    offset: 46316360
+    sourceAssetGUID: c7921254f0d35a7439bb6e8d0642d2df
+    buildTimeAssetPath: Assets/Scenes/meshes/FBXs/throwables.fbx
+  - fileID: 269
+    classID: 43
+    packedSize: 408
+    offset: 46339208
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 270
+    classID: 43
+    packedSize: 3360
+    offset: 46339616
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 271
+    classID: 43
+    packedSize: 6076
+    offset: 46342976
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 272
+    classID: 43
+    packedSize: 2768
+    offset: 46349056
+    sourceAssetGUID: a378b4f34221eff4f903955e548f82b0
+    buildTimeAssetPath: Assets/Scenes/meshes/blends/Chucklefucks.blend
+  - fileID: 273
+    classID: 48
+    packedSize: 1206320
+    offset: 46351824
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 274
+    classID: 48
+    packedSize: 862676
+    offset: 47558144
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 275
+    classID: 48
+    packedSize: 10488
+    offset: 48420824
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 276
+    classID: 48
+    packedSize: 5540
+    offset: 48431312
+    sourceAssetGUID: 02d2da9bc88d25c4d878c1ed4e0b3854
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - fileID: 277
+    classID: 48
+    packedSize: 98176
+    offset: 48436856
+    sourceAssetGUID: 0b7113dea2069fc4e8943843eff19f70
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-StandardLite.shader
+  - fileID: 278
+    classID: 48
+    packedSize: 10828
+    offset: 48535032
+    sourceAssetGUID: 0d8afcb51cc9f0349a6d190da929b838
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - fileID: 279
+    classID: 48
+    packedSize: 64076
+    offset: 48545864
+    sourceAssetGUID: 0ef78d24e85a44f4da9d5b5eaa00e50b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - fileID: 280
+    classID: 48
+    packedSize: 20396
+    offset: 48609944
+    sourceAssetGUID: 2c459b89a7c8b1a4fbefe0d81341651c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - fileID: 281
+    classID: 48
+    packedSize: 23688
+    offset: 48630344
+    sourceAssetGUID: 2dcd9e0568e0a6f45b92c60ba2eb16a0
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Diffuse.shader
+  - fileID: 282
+    classID: 48
+    packedSize: 3968
+    offset: 48654032
+    sourceAssetGUID: 3020ac7ece79a7f4eb789a236f8bd6c5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - fileID: 283
+    classID: 48
+    packedSize: 6588
+    offset: 48658000
+    sourceAssetGUID: 34a819c9e33402547a81619693adc8d5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - fileID: 284
+    classID: 48
+    packedSize: 2750344
+    offset: 48664592
+    sourceAssetGUID: 382151503e2a43a4ebb7366d1632731d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - fileID: 285
+    classID: 48
+    packedSize: 7304
+    offset: 51414936
+    sourceAssetGUID: 4117fce9491711c4094d33a048e36e73
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - fileID: 286
+    classID: 48
+    packedSize: 5572
+    offset: 51422240
+    sourceAssetGUID: 4bf4cff0d0bac3d43894e2e8839feb40
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - fileID: 287
+    classID: 48
+    packedSize: 10248
+    offset: 51427816
+    sourceAssetGUID: 51bcf79c50dc92e47ba87821b61100c3
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - fileID: 288
+    classID: 48
+    packedSize: 3576
+    offset: 51438064
+    sourceAssetGUID: 5ab0816423f0dfe45841cab3b05ec9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - fileID: 289
+    classID: 48
+    packedSize: 13020
+    offset: 51441640
+    sourceAssetGUID: 67f9497810829eb4791ec19e95781e51
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - fileID: 290
+    classID: 48
+    packedSize: 18884
+    offset: 51454664
+    sourceAssetGUID: 7ad194cbe7d006f4bace915156972026
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - fileID: 291
+    classID: 48
+    packedSize: 21892
+    offset: 51473552
+    sourceAssetGUID: 81af42a93ade3dd46a9b583d4eec76d6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - fileID: 292
+    classID: 48
+    packedSize: 3980
+    offset: 51495448
+    sourceAssetGUID: a71093f2a4fe26a40805c22739e10e4a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - fileID: 293
+    classID: 48
+    packedSize: 13136
+    offset: 51499432
+    sourceAssetGUID: b34a29e523cb9d545881e193a079f2df
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - fileID: 294
+    classID: 48
+    packedSize: 23716
+    offset: 51512568
+    sourceAssetGUID: b958ad1c92bd3d64c9e61318b8681dab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - fileID: 295
+    classID: 48
+    packedSize: 29700
+    offset: 51536288
+    sourceAssetGUID: c1e1d3119c6fd4646aea0b4b74cacc1a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - fileID: 296
+    classID: 48
+    packedSize: 6228
+    offset: 51565992
+    sourceAssetGUID: cdbdb71de5f9c454b980f6d0e87f0afb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - fileID: 297
+    classID: 48
+    packedSize: 33428
+    offset: 51572224
+    sourceAssetGUID: d7640629310e79646af0f46eb55ae466
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - fileID: 298
+    classID: 48
+    packedSize: 5600
+    offset: 51605656
+    sourceAssetGUID: e8ce9961912f3214586fe8709b9012c1
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - fileID: 299
+    classID: 48
+    packedSize: 78288
+    offset: 51611256
+    sourceAssetGUID: f75014305794b3948a3c6d5ccd550e05
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - fileID: 300
+    classID: 48
+    packedSize: 4740
+    offset: 51689544
+    sourceAssetGUID: f7ea35cfb33fcad4ab8f2429ec103bef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - fileID: 301
+    classID: 48
+    packedSize: 17596
+    offset: 51694288
+    sourceAssetGUID: f997a3dc9254c44459323cced085150c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - fileID: 302
+    classID: 48
+    packedSize: 30252
+    offset: 51711888
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 303
+    classID: 72
+    packedSize: 1816
+    offset: 51742144
+    sourceAssetGUID: 18183ebfeeab97749b43e38b928604a7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+  - fileID: 304
+    classID: 72
+    packedSize: 1456
+    offset: 51743960
+    sourceAssetGUID: 31e9175024adfd44aba2530ff9b77494
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+  - fileID: 305
+    classID: 72
+    packedSize: 95740
+    offset: 51745416
+    sourceAssetGUID: 34845e0ca016b7448842e965db5890a5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+  - fileID: 306
+    classID: 72
+    packedSize: 39828
+    offset: 51841160
+    sourceAssetGUID: 34a460e8a2e66c243a9c12024e5a798d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  - fileID: 307
+    classID: 72
+    packedSize: 21116
+    offset: 51880992
+    sourceAssetGUID: 42496b74c071f5749950ca1abe33e945
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  - fileID: 308
+    classID: 72
+    packedSize: 5048
+    offset: 51902112
+    sourceAssetGUID: 4c63bc487e6c29a4a99f85a6c47b292b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  - fileID: 309
+    classID: 72
+    packedSize: 92224
+    offset: 51907160
+    sourceAssetGUID: 600d6212b59bb40409d19d750b5fd1e9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+  - fileID: 310
+    classID: 72
+    packedSize: 6436
+    offset: 51999384
+    sourceAssetGUID: 6dba4103d23a7904fbc49099355aff3e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  - fileID: 311
+    classID: 72
+    packedSize: 1640
+    offset: 52005824
+    sourceAssetGUID: 8c2fcbdf9bc58664f89917f7b9d79501
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  - fileID: 312
+    classID: 72
+    packedSize: 1824
+    offset: 52007464
+    sourceAssetGUID: 92c63830cd50c0b4fbb8233613839958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+  - fileID: 313
+    classID: 72
+    packedSize: 1944
+    offset: 52009288
+    sourceAssetGUID: e1efca7c36fd01840aae0dd10378de5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+  - fileID: 314
+    classID: 72
+    packedSize: 1960
+    offset: 52011232
+    sourceAssetGUID: e4d3e4779e48a374f91d48d4c0aedb7b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+  - fileID: 315
+    classID: 74
+    packedSize: 2416
+    offset: 52013192
+    sourceAssetGUID: 9096a238e6a397d4b84373dee05cde10
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Disabled
+      Button 1.anim
+  - fileID: 316
+    classID: 74
+    packedSize: 2416
+    offset: 52015608
+    sourceAssetGUID: d0baaaabba67b494c802b9e197a5cc8a
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Disabled
+      Button 2.anim
+  - fileID: 317
+    classID: 74
+    packedSize: 2416
+    offset: 52018024
+    sourceAssetGUID: f582de810ce672b40a5fe0de2d1c3196
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Disabled
+      Button 3.anim
+  - fileID: 318
+    classID: 74
+    packedSize: 2416
+    offset: 52020440
+    sourceAssetGUID: 4e4f173b65606d34fa3ea4bc3f590a12
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Disabled
+      Button 4.anim
+  - fileID: 319
+    classID: 74
+    packedSize: 2416
+    offset: 52022856
+    sourceAssetGUID: 45231a5fe4ae3aa46bd5b6f678f28c8f
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Disabled
+      Main Button.anim
+  - fileID: 320
+    classID: 74
+    packedSize: 2416
+    offset: 52025272
+    sourceAssetGUID: 89a041841cc781c47a6c7f00379258b8
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Disabled
+      Sub Button.anim
+  - fileID: 321
+    classID: 74
+    packedSize: 2412
+    offset: 52027688
+    sourceAssetGUID: 91032588a9a01214facecc3ab5c596b8
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Enabled
+      Button 1.anim
+  - fileID: 322
+    classID: 74
+    packedSize: 2412
+    offset: 52030104
+    sourceAssetGUID: 6908a67a35cc0874ebadc71023d88d60
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Enabled
+      Button 2.anim
+  - fileID: 323
+    classID: 74
+    packedSize: 2412
+    offset: 52032520
+    sourceAssetGUID: 80ff0c7b266d6ae4d838eee94ee2dd76
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Enabled
+      Button 3.anim
+  - fileID: 324
+    classID: 74
+    packedSize: 2412
+    offset: 52034936
+    sourceAssetGUID: dc43e19ca7d84704ab686f68e1c5aece
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Enabled
+      Button 4.anim
+  - fileID: 325
+    classID: 74
+    packedSize: 2416
+    offset: 52037352
+    sourceAssetGUID: d639a0a1f848d204fa0259b3935f61fc
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Enabled
+      Main Button.anim
+  - fileID: 326
+    classID: 74
+    packedSize: 2416
+    offset: 52039768
+    sourceAssetGUID: f008a7985c90c1e44b96e35cbfa9ac1e
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Enabled
+      Sub Button.anim
+  - fileID: 327
+    classID: 74
+    packedSize: 2812
+    offset: 52042184
+    sourceAssetGUID: 3de67f4d6ea1fca46bcc1218dcbf1415
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Flashing
+      Button 1.anim
+  - fileID: 328
+    classID: 74
+    packedSize: 2812
+    offset: 52045000
+    sourceAssetGUID: a2ae030120b89884783b12db45319585
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Flashing
+      Button 2.anim
+  - fileID: 329
+    classID: 74
+    packedSize: 2812
+    offset: 52047816
+    sourceAssetGUID: 5a8bf07fe60420f45a977cd070c6321c
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Flashing
+      Button 3.anim
+  - fileID: 330
+    classID: 74
+    packedSize: 2812
+    offset: 52050632
+    sourceAssetGUID: 906a7ed594dc4eb42a0a13964eaac600
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Flashing
+      Button 4.anim
+  - fileID: 331
+    classID: 74
+    packedSize: 2812
+    offset: 52053448
+    sourceAssetGUID: 00b9fbd2d9224f140aca5ed7ef754f4c
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Flashing
+      Main Button.anim
+  - fileID: 332
+    classID: 74
+    packedSize: 2812
+    offset: 52056264
+    sourceAssetGUID: 2bf3933fdcfc2994e80020d503d78e6f
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/Flashing
+      Sub Button.anim
+  - fileID: 333
+    classID: 74
+    packedSize: 2884
+    offset: 52059080
+    sourceAssetGUID: 5969b0cf4d62e1c46b8dea3d0e47ce27
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/15/Closed15.anim
+  - fileID: 334
+    classID: 74
+    packedSize: 2888
+    offset: 52061968
+    sourceAssetGUID: 79649aa711d379e41a6f0cb675ee90c1
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/15/NotOpened15.anim
+  - fileID: 335
+    classID: 74
+    packedSize: 2892
+    offset: 52064856
+    sourceAssetGUID: c074eee94df68844b8049afef71b2239
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/15/player1Opened15.anim
+  - fileID: 336
+    classID: 74
+    packedSize: 2892
+    offset: 52067752
+    sourceAssetGUID: a937a6bb435b6454cbab5f5892c5f33e
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/15/player2Opened15.anim
+  - fileID: 337
+    classID: 74
+    packedSize: 2884
+    offset: 52070648
+    sourceAssetGUID: 403258984de372849b532a37b11b31d1
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/16/Closed16.anim
+  - fileID: 338
+    classID: 74
+    packedSize: 2888
+    offset: 52073536
+    sourceAssetGUID: 81eda6ca07ae7f24282c698d8ddbd237
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/16/NotOpened16.anim
+  - fileID: 339
+    classID: 74
+    packedSize: 2892
+    offset: 52076424
+    sourceAssetGUID: fadc6987c5eb0ca4f8415b2b590e1f54
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/16/player1Opened16.anim
+  - fileID: 340
+    classID: 74
+    packedSize: 2892
+    offset: 52079320
+    sourceAssetGUID: 53f2e6a256fb1314b83dd20d8ae14726
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/16/player2Opened16.anim
+  - fileID: 341
+    classID: 74
+    packedSize: 2884
+    offset: 52082216
+    sourceAssetGUID: 8cec794ff7900bb42afe64af15ca7eee
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/17/Closed17.anim
+  - fileID: 342
+    classID: 74
+    packedSize: 2888
+    offset: 52085104
+    sourceAssetGUID: 300bcb27234a51345aaf03787fb17845
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/17/NotOpened17.anim
+  - fileID: 343
+    classID: 74
+    packedSize: 2892
+    offset: 52087992
+    sourceAssetGUID: 693e6d9bb9e340048a8d80cd9fcbcf15
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/17/player1Opened17.anim
+  - fileID: 344
+    classID: 74
+    packedSize: 2892
+    offset: 52090888
+    sourceAssetGUID: 102c958a51dfc034c938b6f70a922e73
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/17/player2Opened17.anim
+  - fileID: 345
+    classID: 74
+    packedSize: 2884
+    offset: 52093784
+    sourceAssetGUID: 939486de03e32a9418043a1aa1313522
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/18/Closed18.anim
+  - fileID: 346
+    classID: 74
+    packedSize: 2888
+    offset: 52096672
+    sourceAssetGUID: 5066eb80a80538d4d91dc085125e7c1b
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/18/NotOpened18.anim
+  - fileID: 347
+    classID: 74
+    packedSize: 2892
+    offset: 52099560
+    sourceAssetGUID: ec8685486524fbf42bc580bddb4ed7ac
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/18/player1Opened18.anim
+  - fileID: 348
+    classID: 74
+    packedSize: 2892
+    offset: 52102456
+    sourceAssetGUID: 5d2734a535ec7cb45b0139bd56aa32ae
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/18/player2Opened18.anim
+  - fileID: 349
+    classID: 74
+    packedSize: 2884
+    offset: 52105352
+    sourceAssetGUID: 2651a0546314dca47bf251550db48a86
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/19/Closed19.anim
+  - fileID: 350
+    classID: 74
+    packedSize: 2888
+    offset: 52108240
+    sourceAssetGUID: 240cd92cf314f41408fd65379ab6f4b8
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/19/NotOpened19.anim
+  - fileID: 351
+    classID: 74
+    packedSize: 2892
+    offset: 52111128
+    sourceAssetGUID: e08b772d0fb192e4993afbba503fd903
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/19/player1Opened19.anim
+  - fileID: 352
+    classID: 74
+    packedSize: 2892
+    offset: 52114024
+    sourceAssetGUID: 82f2f93617b935840b4de08a2875a88f
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/19/player2Opened19.anim
+  - fileID: 353
+    classID: 74
+    packedSize: 2884
+    offset: 52116920
+    sourceAssetGUID: 5a60295955ef71d4283defef0a8e4bb1
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/20/Closed20.anim
+  - fileID: 354
+    classID: 74
+    packedSize: 2888
+    offset: 52119808
+    sourceAssetGUID: 21777eac8e75c7f46b2da5d51a8822d1
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/20/NotOpened20.anim
+  - fileID: 355
+    classID: 74
+    packedSize: 2892
+    offset: 52122696
+    sourceAssetGUID: 50eb886eec491ce40bd2bb92948fe4b9
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/20/player1Opened20.anim
+  - fileID: 356
+    classID: 74
+    packedSize: 2892
+    offset: 52125592
+    sourceAssetGUID: 4306d630cd5099b4aaf401d6fc1480c0
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/20/player2Opened20.anim
+  - fileID: 357
+    classID: 74
+    packedSize: 2568
+    offset: 52128488
+    sourceAssetGUID: 367c3b96af8ee694dbc4c38ef0b1368c
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/Bull/ClosedBull.anim
+  - fileID: 358
+    classID: 74
+    packedSize: 2572
+    offset: 52131056
+    sourceAssetGUID: 20d419cfd675d96458aac055920e0c8b
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/Bull/NotOpenedBull.anim
+  - fileID: 359
+    classID: 74
+    packedSize: 2576
+    offset: 52133632
+    sourceAssetGUID: dda0dd63723d28844a9f6b422b5cf5e8
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/Bull/player1OpenedBull.anim
+  - fileID: 360
+    classID: 74
+    packedSize: 2576
+    offset: 52136208
+    sourceAssetGUID: cb88827de2be50d4fa416ab64f5289a9
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Cricket/Bull/player2OpenedBull.anim
+  - fileID: 361
+    classID: 74
+    packedSize: 15684
+    offset: 52138784
+    sourceAssetGUID: bfdcf560c4621d844806ae0539f1befb
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Disabled.anim
+  - fileID: 362
+    classID: 74
+    packedSize: 2236
+    offset: 52154472
+    sourceAssetGUID: 0c0bd28cd3768284d9a0600e24a956c1
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Empty.anim
+  - fileID: 363
+    classID: 74
+    packedSize: 51616
+    offset: 52156712
+    sourceAssetGUID: 7477ab1c7bf6f4245acf9c3019adc4bb
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Hit BULL.anim
+  - fileID: 364
+    classID: 74
+    packedSize: 15680
+    offset: 52208328
+    sourceAssetGUID: 9d58680433c9121488602e4654f4da3a
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Idle.anim
+  - fileID: 365
+    classID: 74
+    packedSize: 53424
+    offset: 52224008
+    sourceAssetGUID: a740deee2994c9f41940592642808cc5
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/Wipe.anim
+  - fileID: 366
+    classID: 74
+    packedSize: 5988
+    offset: 52277432
+    sourceAssetGUID: dc51945d1f48afe4ab19e2c53a870f2f
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Entry Page
+      (Cricket).anim
+  - fileID: 367
+    classID: 74
+    packedSize: 3776
+    offset: 52283424
+    sourceAssetGUID: 03ff1106acc3d8b4bad77807ecba53a8
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Entry Page.anim
+  - fileID: 368
+    classID: 74
+    packedSize: 3488
+    offset: 52287200
+    sourceAssetGUID: 34d11dd48f497104f816a30679121e52
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Game Page/Game
+      Page (01 Games).anim
+  - fileID: 369
+    classID: 74
+    packedSize: 3488
+    offset: 52290688
+    sourceAssetGUID: dcd8edea67fe83d408c8541560408eba
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Game Page/Game
+      Page (Count Up).anim
+  - fileID: 370
+    classID: 74
+    packedSize: 3564
+    offset: 52294176
+    sourceAssetGUID: 08e7b8396473ff044bcb18bddc7634ac
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Game Page/Game
+      Page (Cricket).anim
+  - fileID: 371
+    classID: 74
+    packedSize: 2644
+    offset: 52297744
+    sourceAssetGUID: dd757f9e699188c47a678f0907df1588
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Initial Page.anim
+  - fileID: 372
+    classID: 74
+    packedSize: 2724
+    offset: 52300392
+    sourceAssetGUID: 83c699b3b125ec3468127a927995042c
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Message Box/Hide
+      Message.anim
+  - fileID: 373
+    classID: 74
+    packedSize: 2792
+    offset: 52303120
+    sourceAssetGUID: 2f57235ae3f24c049912161f81551a77
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Message Box/Show
+      Message.anim
+  - fileID: 374
+    classID: 74
+    packedSize: 3112
+    offset: 52305912
+    sourceAssetGUID: 8efc3f4fe90419148872c357257fefda
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Players/1
+      Players.anim
+  - fileID: 375
+    classID: 74
+    packedSize: 3312
+    offset: 52309024
+    sourceAssetGUID: 355f4c7eba2183d43a64f99f46529b4f
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Players/2
+      Players.anim
+  - fileID: 376
+    classID: 74
+    packedSize: 3432
+    offset: 52312336
+    sourceAssetGUID: 41fb78c95da646b4e843024fddba44d0
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Players/3
+      Players.anim
+  - fileID: 377
+    classID: 74
+    packedSize: 3432
+    offset: 52315768
+    sourceAssetGUID: 3cb07ce47ea8e2f4fbbc64047353ceea
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Players/4
+      Players.anim
+  - fileID: 378
+    classID: 74
+    packedSize: 3988
+    offset: 52319200
+    sourceAssetGUID: 8543873233479b4429803e6951e4c053
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Rule Page/Rule
+      Page.anim
+  - fileID: 379
+    classID: 74
+    packedSize: 6124
+    offset: 52323192
+    sourceAssetGUID: decf766d44970b142832633b24f32670
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Setting Page/Setting
+      Page (01 Games).anim
+  - fileID: 380
+    classID: 74
+    packedSize: 6144
+    offset: 52329320
+    sourceAssetGUID: 6cb0217b0744f284fbf1af9658de7084
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/Setting Page/Setting
+      Page (Count Up).anim
+  - fileID: 381
+    classID: 83
+    packedSize: 132
+    offset: 52335464
+    sourceAssetGUID: 01511eb183fc8864d962248201d63dde
+    buildTimeAssetPath: Assets/Scenes/sfx/boo.wav
+  - fileID: 382
+    classID: 83
+    packedSize: 136
+    offset: 52335600
+    sourceAssetGUID: 1e4fbee20e79cb543a1e0a4e1e02eeec
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/select.wav
+  - fileID: 383
+    classID: 83
+    packedSize: 140
+    offset: 52335736
+    sourceAssetGUID: 27f4832f6e829244caa68e6aa81bce6b
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/triple_hit.ogg
+  - fileID: 384
+    classID: 83
+    packedSize: 132
+    offset: 52335880
+    sourceAssetGUID: 468e3cdf973df9345a2dd9210c996e30
+    buildTimeAssetPath: Assets/Scenes/sfx/slap.wav
+  - fileID: 385
+    classID: 83
+    packedSize: 140
+    offset: 52336016
+    sourceAssetGUID: a6fa62a6fe756d147bd3dca06e79a225
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/double_hit.ogg
+  - fileID: 386
+    classID: 83
+    packedSize: 132
+    offset: 52336160
+    sourceAssetGUID: c5ec716c81551e642a9de3601f6e1f82
+    buildTimeAssetPath: Assets/Scenes/sfx/yay.wav
+  - fileID: 387
+    classID: 83
+    packedSize: 136
+    offset: 52336296
+    sourceAssetGUID: e312cc67e6605514580f1446317f1e0b
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/cancel.mp3
+  - fileID: 388
+    classID: 83
+    packedSize: 136
+    offset: 52336432
+    sourceAssetGUID: e369b3c1084640b43b69bd4066c79e49
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/confirm.wav
+  - fileID: 389
+    classID: 83
+    packedSize: 132
+    offset: 52336568
+    sourceAssetGUID: e9b8e18ae80730c418654f7d25b92fb6
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Sounds/hit.wav
+  - fileID: 390
+    classID: 89
+    packedSize: 524640
+    offset: 52336704
+    sourceAssetGUID: 8fbde9cd0383a2649b6645bd66842e14
+    buildTimeAssetPath: Assets/Scenes/ChuckleFucks/ReflectionProbe-1.exr
+  - fileID: 391
+    classID: 89
+    packedSize: 131424
+    offset: 52861344
+    sourceAssetGUID: dd1b1b6ca9b9a194387cf96c5e0a88ec
+    buildTimeAssetPath: Assets/Scenes/ChuckleFucks/ReflectionProbe-0.exr
+  - fileID: 392
+    classID: 91
+    packedSize: 7312
+    offset: 52992768
+    sourceAssetGUID: 9dee73f128a69814eb007c58420dd54d
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Controller/VRCDarts
+      Controller.controller
+  - fileID: 393
+    classID: 91
+    packedSize: 12300
+    offset: 53000080
+    sourceAssetGUID: 3d9f67a798d314d428181ce927cd2a48
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Darts Board/DartsBoard.controller
+  - fileID: 394
+    classID: 91
+    packedSize: 6748
+    offset: 53012384
+    sourceAssetGUID: 2cd927da4978faa43929040e9057ed41
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Animations/Monitor/VRC Darts
+      Monitor.controller
+  - fileID: 395
+    classID: 115
+    packedSize: 100
+    offset: 291776
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 396
+    classID: 115
+    packedSize: 96
+    offset: 291880
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 397
+    classID: 115
+    packedSize: 116
+    offset: 291976
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 398
+    classID: 115
+    packedSize: 108
+    offset: 292096
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 399
+    classID: 115
+    packedSize: 96
+    offset: 292208
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 400
+    classID: 115
+    packedSize: 144
+    offset: 292304
+    sourceAssetGUID: 30f4b897495c7ad40b2d47143e02aaba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs
+  - fileID: 401
+    classID: 115
+    packedSize: 88
+    offset: 292448
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 402
+    classID: 115
+    packedSize: 120
+    offset: 292536
+    sourceAssetGUID: 48a79b01ea5641d4aa6daa2e23605641
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs
+  - fileID: 403
+    classID: 115
+    packedSize: 100
+    offset: 292656
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 404
+    classID: 115
+    packedSize: 144
+    offset: 292760
+    sourceAssetGUID: 8b9a305e18de0c04dbd257a21cd47087
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs
+  - fileID: 405
+    classID: 115
+    packedSize: 144
+    offset: 292904
+    sourceAssetGUID: 8e6292b2c06870d4495f009f912b9600
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs
+  - fileID: 406
+    classID: 115
+    packedSize: 136
+    offset: 293048
+    sourceAssetGUID: 948f4100a11a5c24981795d21301da5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs
+  - fileID: 407
+    classID: 115
+    packedSize: 92
+    offset: 293184
+    sourceAssetGUID: 9541d86e2fd84c1d9990edf0852d74ab
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshPro.cs
+  - fileID: 408
+    classID: 115
+    packedSize: 112
+    offset: 293280
+    sourceAssetGUID: aac73b21413b660469a13e160e708e62
+    buildTimeAssetPath: Assets/Scenes/scripts/VRCJokeJamTracker.cs
+  - fileID: 409
+    classID: 115
+    packedSize: 128
+    offset: 293392
+    sourceAssetGUID: adb84e30e02715445aeb9959894e3b4d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ColorGrading.cs
+  - fileID: 410
+    classID: 115
+    packedSize: 128
+    offset: 293520
+    sourceAssetGUID: b3f6f3f7c722b4544b97e3c75840aa33
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs
+  - fileID: 411
+    classID: 115
+    packedSize: 128
+    offset: 293648
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 412
+    classID: 115
+    packedSize: 100
+    offset: 293776
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 413
+    classID: 115
+    packedSize: 88
+    offset: 293880
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 414
+    classID: 115
+    packedSize: 100
+    offset: 293968
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 415
+    classID: 115
+    packedSize: 92
+    offset: 294072
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 416
+    classID: 115
+    packedSize: 92
+    offset: 294168
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 417
+    classID: 128
+    packedSize: 352462
+    offset: 53019136
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 418
+    classID: 134
+    packedSize: 28
+    offset: 53371600
+    sourceAssetGUID: f6f7fa374e577344a8f2ff7e7c4db5da
+    buildTimeAssetPath: Assets/Scenes/materials/Wall.physicMaterial
+  - fileID: 419
+    classID: 213
+    packedSize: 572
+    offset: 53371632
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 420
+    classID: 213
+    packedSize: 820
+    offset: 53372208
+    sourceAssetGUID: 3bd23304c2183384ba90e79d95f13053
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/CountUpIcon.png
+  - fileID: 421
+    classID: 213
+    packedSize: 560
+    offset: 53373032
+    sourceAssetGUID: 70febe7945d39d64aa5e85b210011890
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/1mark.png
+  - fileID: 422
+    classID: 213
+    packedSize: 484
+    offset: 53373592
+    sourceAssetGUID: b159ad84fc66a0d459d600342aedcbae
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/NoMarks.png
+  - fileID: 423
+    classID: 213
+    packedSize: 692
+    offset: 53374080
+    sourceAssetGUID: b82c04fba79251e49a83c45b0028a8fb
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/2marks.png
+  - fileID: 424
+    classID: 213
+    packedSize: 480
+    offset: 53374776
+    sourceAssetGUID: b9e257d3e41a70c47a647edb6a4d7f96
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/dart.png
+  - fileID: 425
+    classID: 213
+    packedSize: 1040
+    offset: 53375256
+    sourceAssetGUID: beb4977d25e50f04783a2cb0f520c98e
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/CricketIcon.png
+  - fileID: 426
+    classID: 213
+    packedSize: 824
+    offset: 53376296
+    sourceAssetGUID: c76492dab64c9bc469eb396ec38c796c
+    buildTimeAssetPath: Assets/Aoinu Works/VRC Darts/Textures/ZeroOneGamesIcon.png
+  - fileID: 427
+    classID: 258
+    packedSize: 45504
+    offset: 53377120
+    sourceAssetGUID: 7ac8cd531b211e847a4c3a8e808a1c4b
+    buildTimeAssetPath: Assets/Scenes/ChuckleFucks/LightingData.asset
+  - fileID: 428
+    classID: 363
+    packedSize: 7968
+    offset: 53422624
+    sourceAssetGUID: 9a6a8c3e9abaafd4c91a6d9c4d273e76
+    buildTimeAssetPath: Assets/Scenes/ChuckleFucks/OcclusionCullingData.asset
+  - fileID: 429
+    classID: 1
+    packedSize: 63
+    offset: 53430592
+    sourceAssetGUID: a3c4540dd03a70e4ea367012f3ddade2
+    buildTimeAssetPath: Assets/Scenes/prefabs/TomatoSplat.prefab
+  - fileID: 430
+    classID: 4
+    packedSize: 68
+    offset: 53430656
+    sourceAssetGUID: a3c4540dd03a70e4ea367012f3ddade2
+    buildTimeAssetPath: Assets/Scenes/prefabs/TomatoSplat.prefab
+  - fileID: 431
+    classID: 198
+    packedSize: 7348
+    offset: 53430728
+    sourceAssetGUID: a3c4540dd03a70e4ea367012f3ddade2
+    buildTimeAssetPath: Assets/Scenes/prefabs/TomatoSplat.prefab
+  - fileID: 432
+    classID: 199
+    packedSize: 256
+    offset: 53438080
+    sourceAssetGUID: a3c4540dd03a70e4ea367012f3ddade2
+    buildTimeAssetPath: Assets/Scenes/prefabs/TomatoSplat.prefab
+  - fileID: 433
+    classID: 114
+    packedSize: 88
+    offset: 53438336
+    sourceAssetGUID: 262dd6d99bbecfa42976f952234ce51e
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 434
+    classID: 114
+    packedSize: 33848
+    offset: 53438424
+    sourceAssetGUID: 6854b28e0c827ee40ab9161da173bf70
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/05c5221de6e00344c9bef398bea99196.asset
+  - fileID: 435
+    classID: 114
+    packedSize: 10300
+    offset: 53472272
+    sourceAssetGUID: eb714c68ac2c5eb4496602e2d1e410fa
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/1060e0832f464ae4fb80ccba35ef6cb4.asset
+  - fileID: 436
+    classID: 114
+    packedSize: 11656
+    offset: 53482576
+    sourceAssetGUID: 4545d411eba93d44398534db7edbe8f4
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/23c7cd0c5480cb1499c89b4e504c98e5.asset
+  - fileID: 437
+    classID: 114
+    packedSize: 24512
+    offset: 53494232
+    sourceAssetGUID: 6634ee1150445e5449ed6813a35a7bd4
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/2ddf48aaabd6b1e47ae151e53a279d50.asset
+  - fileID: 438
+    classID: 114
+    packedSize: 17748
+    offset: 53518744
+    sourceAssetGUID: 2c5b9c59598aa454593be4107f5e64d7
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/30748164b8b6ddc46b44f06210b4b534.asset
+  - fileID: 439
+    classID: 114
+    packedSize: 33476
+    offset: 53536496
+    sourceAssetGUID: bc803e1c98ee9ef44b1809a82896a829
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/4800265cae064b34d8f2a9fddfb1a521.asset
+  - fileID: 440
+    classID: 114
+    packedSize: 954988
+    offset: 53569976
+    sourceAssetGUID: 29ff793042728b948a735d0c971ba1a8
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/49685f19c2ed4cb41824fa8f2dd8b19d.asset
+  - fileID: 441
+    classID: 114
+    packedSize: 54016
+    offset: 54524968
+    sourceAssetGUID: 9b0c34be8e63edf48b08491fb7bb1455
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/606ea695cc096414bb64aa8d46682b9e.asset
+  - fileID: 442
+    classID: 114
+    packedSize: 124764
+    offset: 54578984
+    sourceAssetGUID: 6debbdf855bad304e94414a584b0aa0e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6af66112e0f7110449f83e7949452916.asset
+  - fileID: 443
+    classID: 114
+    packedSize: 285832
+    offset: 54703752
+    sourceAssetGUID: 73c458a6d8d83574db9197ee74887131
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/7075f0feaf501734eb918bd5730bfa14.asset
+  - fileID: 444
+    classID: 114
+    packedSize: 98760
+    offset: 54989584
+    sourceAssetGUID: d2f79904384da1246bb9e9f69e608e88
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/81bdf2690103d4d43ab2b60d21284466.asset
+  - fileID: 445
+    classID: 114
+    packedSize: 60576
+    offset: 55088344
+    sourceAssetGUID: 5c02b2baa8563bb4dbb737ad79f50891
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/8366becea25acea4a9d958b10c011810.asset
+  - fileID: 446
+    classID: 114
+    packedSize: 93932
+    offset: 55148920
+    sourceAssetGUID: 07ddfeab8bb26154da5adc82083e662b
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/872e33d7c7167e448b4b93a006913da6.asset
+  - fileID: 447
+    classID: 114
+    packedSize: 15180
+    offset: 55242856
+    sourceAssetGUID: 9322a931b61b00f4fbadf4f87a9f2eec
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/b4f3687539625934db2019a8aa048cf2.asset
+  - fileID: 448
+    classID: 114
+    packedSize: 23004
+    offset: 55258040
+    sourceAssetGUID: f1253d1262be61e41a26334cc7c3cd6f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c4e79ea2974c7b149a21a6c0001b20da.asset
+  - fileID: 449
+    classID: 114
+    packedSize: 17016
+    offset: 55281048
+    sourceAssetGUID: 332343c6628325840a8d83280237bce3
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 450
+    classID: 114
+    packedSize: 65244
+    offset: 55298064
+    sourceAssetGUID: 0de76e19655e7c547a29e71f67efc523
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/cf3a220859eabe6458402866be63cece.asset
+  - fileID: 451
+    classID: 114
+    packedSize: 11656
+    offset: 55363312
+    sourceAssetGUID: 2fef1893dfbc3a846ae69e28f6906e9a
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/da53d8c2ebf9ab946ab273d937976a4e.asset
+  - fileID: 452
+    classID: 114
+    packedSize: 35516
+    offset: 55374968
+    sourceAssetGUID: c4c1704ad6ff84c4f995236586e8a509
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/e7ad95ef67f4a0543a03b4fa3b11e1ea.asset
+  - fileID: 453
+    classID: 114
+    packedSize: 13372
+    offset: 55410488
+    sourceAssetGUID: 83448517d22acaa4d8daee716e57dbf6
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/fb69ef6c079df0d458d010be8c8d7035.asset
+  - fileID: 454
+    classID: 114
+    packedSize: 2144
+    offset: 55423864
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 455
+    classID: 114
+    packedSize: 27760
+    offset: 55426008
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 456
+    classID: 114
+    packedSize: 21480
+    offset: 55453768
+    sourceAssetGUID: 9a3b1e8a8dbce9c40858b1d009683eca
+    buildTimeAssetPath: Assets/VRCBilliardsCE/Fonts/Calistoga SDF.asset
+  - fileID: 457
+    classID: 114
+    packedSize: 1380
+    offset: 55475248
+    sourceAssetGUID: d82512f9c8e5d4a4d938b575d47f88d4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+  - fileID: 458
+    classID: 114
+    packedSize: 156
+    offset: 55476632
+    sourceAssetGUID: 262dd6d99bbecfa42976f952234ce51e
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 459
+    classID: 114
+    packedSize: 116
+    offset: 55476792
+    sourceAssetGUID: 262dd6d99bbecfa42976f952234ce51e
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 460
+    classID: 114
+    packedSize: 4984
+    offset: 55476912
+    sourceAssetGUID: 262dd6d99bbecfa42976f952234ce51e
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637845442024458725
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/Joe/AppData/Local/Temp/DefaultCompany/Worldjam4/scene-standalonewindows64-chucklefucks.vrcw
+    crc: 2564050792
+    totalSize: 16246443
+    totalTimeTicks: 0
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Joe/Unity Projects/Worldjam4/scene-standalonewindows64-chucklefucks.vrcw/BuildPlayer-ChuckleFucks
+    role: Scene
+    id: 0
+    totalSize: 5450264
+  - path: D:/Joe/Unity Projects/Worldjam4/scene-standalonewindows64-chucklefucks.vrcw/BuildPlayer-ChuckleFucks.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 55481896
+  - path: D:/Joe/Unity Projects/Worldjam4/scene-standalonewindows64-chucklefucks.vrcw/BuildPlayer-ChuckleFucks.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 1121888
+  - path: D:/Joe/Unity Projects/Worldjam4/scene-standalonewindows64-chucklefucks.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 16245215
+  - path: D:/Joe/Unity Projects/Worldjam4/Worldjam4/CAB-afc5cc58d9735617375885f98b54af01
+    role: ResourcesFile
+    id: 4
+    totalSize: 4312
+  - path: D:/Joe/Unity Projects/Worldjam4/Worldjam4
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1057
+  - path: D:/Joe/Unity Projects/Worldjam4/Worldjam4.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 171
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 224938620
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 71319
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 17142479
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 157480171
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2119466
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 27466741
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/ChuckleFucks.unity
+    durationTicks: 27451519
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 45433937
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-ChuckleFucks/BuildPlayer-ChuckleFucks.sharedAssets
+    durationTicks: 45371077
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 64584177
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 1457038
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -4822606075841780053}
+  - {fileID: -2421689693014271935}
+  - {fileID: -8901377749228420908}
+  - {fileID: -3809563428475761452}
+  - {fileID: -3695751131355690170}
+  - {fileID: -5070115919369613659}

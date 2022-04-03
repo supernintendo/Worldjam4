@@ -153,7 +153,7 @@ MonoBehaviour:
     CurrentVersion: 0.0.0
     UpdateAvailable: 0
     LatestCached: 1
-    VersionFileMissing: 0
+    VersionFileMissing: 1
     LastRefreshed: 0
     RequiresUdonSharp: 1
     SDK3Only: 1
