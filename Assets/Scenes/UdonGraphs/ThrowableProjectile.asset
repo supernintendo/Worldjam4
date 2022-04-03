@@ -23,32 +23,26 @@ MonoBehaviour:
     null\r\n    __instance_2: %VRCUdonUdonBehaviour, this\r\n    __eventName_1: %SystemString,
     null\r\n    __instance_1: %VRCUdonUdonBehaviour, this\r\n    __symbolName_0:
     %SystemString, null\r\n    __value_0: %SystemObject, null\r\n    __Boolean_2:
-    %SystemBoolean, null\r\n    __obj_0: %UnityEngineObject, null\r\n    __t_0: %SystemSingle,
-    null\r\n    __GameObject_0: %UnityEngineGameObject, this\r\n    splatSoundObject:
-    %VRCUdonUdonBehaviour, this\r\n    splatParticles: %UnityEngineGameObject, this\r\n   
-    splatThreshold: %SystemSingle, null\r\n    splatSoundOn: %SystemBoolean, null\r\n   
-    splatParticlesOn: %SystemBoolean, null\r\n    scoreDisplay: %VRCUdonUdonBehaviour,
-    this\r\n    goodProjectile: %SystemBoolean, null\r\n    scoreCounted: %SystemBoolean,
-    null\r\n    mic: %VRCUdonUdonBehaviour, this\r\n    despawnTime: %SystemSingle,
-    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onCollisionEnter\r\n   
-    \r\n    _onCollisionEnter:\r\n    \r\n        PUSH, scoreCounted\r\n        JUMP_IF_FALSE,
-    0x00000018\r\n        JUMP, 0x00000148\r\n        PUSH, goodProjectile\r\n       
-    JUMP_IF_FALSE, 0x000000BC\r\n        PUSH, mic\r\n        PUSH, __instance_0\r\n       
-    COPY\r\n        PUSH, __instance_0\r\n        PUSH, __eventName_0\r\n       
-    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    %SystemBoolean, null\r\n    splatSoundObject: %VRCUdonUdonBehaviour, this\r\n   
+    splatParticles: %UnityEngineGameObject, this\r\n    splatThreshold: %SystemSingle,
+    null\r\n    splatSoundOn: %SystemBoolean, null\r\n    splatParticlesOn: %SystemBoolean,
+    null\r\n    scoreDisplay: %VRCUdonUdonBehaviour, this\r\n    goodProjectile:
+    %SystemBoolean, null\r\n    scoreCounted: %SystemBoolean, null\r\n    mic: %VRCUdonUdonBehaviour,
+    this\r\n    despawnTime: %SystemSingle, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export _onCollisionEnter\r\n    \r\n    _onCollisionEnter:\r\n    \r\n       
+    PUSH, scoreCounted\r\n        JUMP_IF_FALSE, 0x00000018\r\n        JUMP, 0x000000F0\r\n       
+    PUSH, goodProjectile\r\n        JUMP_IF_FALSE, 0x00000090\r\n        PUSH, mic\r\n       
+    PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
+    __eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     PUSH, __Boolean_2\r\n        PUSH, __value_0\r\n        COPY\r\n        PUSH,
     __instance_1\r\n        PUSH, __symbolName_0\r\n        PUSH, __value_0\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
-    PUSH, __GameObject_0\r\n        PUSH, __obj_0\r\n        COPY\r\n        PUSH,
-    __obj_0\r\n        PUSH, despawnTime\r\n        EXTERN, \"UnityEngineObject.__Destroy__UnityEngineObject_SystemSingle__SystemVoid\"\r\n       
-    JUMP, 0x00000148\r\n        PUSH, mic\r\n        PUSH, __instance_2\r\n       
+    JUMP, 0x000000F0\r\n        PUSH, mic\r\n        PUSH, __instance_2\r\n       
     COPY\r\n        PUSH, __instance_2\r\n        PUSH, __eventName_1\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     PUSH, __Boolean_2\r\n        PUSH, __value_0\r\n        COPY\r\n        PUSH,
     __instance_1\r\n        PUSH, __symbolName_0\r\n        PUSH, __value_0\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
-    PUSH, __GameObject_0\r\n        PUSH, __obj_0\r\n        COPY\r\n        PUSH,
-    __obj_0\r\n        PUSH, despawnTime\r\n        EXTERN, \"UnityEngineObject.__Destroy__UnityEngineObject_SystemSingle__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -303,7 +297,7 @@ MonoBehaviour:
       - 
       - b973f538-c980-4614-8a61-092f224cb581|0
       flowUIDs:
-      - f2b90dbe-1780-4482-ab3e-b8e85f4e3691
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -392,27 +386,6 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|DecrementScore
-    - fullName: UnityEngineObject.__Destroy__UnityEngineObject_SystemSingle__SystemVoid
-      uid: f2b90dbe-1780-4482-ab3e-b8e85f4e3691
-      position: {x: 5449, y: 319}
-      nodeUIDs:
-      - 8d533dd2-22e4-4662-977b-855d5bbc2ab9|0
-      - 7a79543e-a283-4424-a492-a96f1df64b30|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|5
-    - fullName: Const_This
-      uid: 8d533dd2-22e4-4662-977b-855d5bbc2ab9
-      position: {x: 4881, y: 600}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
     - fullName: Variable_SystemSingle
       uid: ed8b42b7-717c-406d-be57-a16a07a723c3
       position: {x: 0, y: 0}
@@ -436,17 +409,6 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
-    - fullName: Get_Variable
-      uid: 7a79543e-a283-4424-a492-a96f1df64b30
-      position: {x: 5287, y: 568}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ed8b42b7-717c-406d-be57-a16a07a723c3
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -456,7 +418,7 @@ MonoBehaviour:
     uid: 07b1306c-eec1-47a5-8b71-d9bc8d63bd37
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":75.0,"y":241.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: -4689, y: 14}
+    position: {x: -4266, y: 90}
     scale: 1
   version: 1.0.0
   showAssembly: 0
